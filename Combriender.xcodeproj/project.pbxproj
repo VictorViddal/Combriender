@@ -14,6 +14,9 @@
 		A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8575814273990B80029B1EF /* Combriender.xcdatamodeld */; };
 		A8575818273990BA0029B1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8575817273990BA0029B1EF /* Assets.xcassets */; };
 		A857581B273990BA0029B1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8575819273990BA0029B1EF /* LaunchScreen.storyboard */; };
+		DF9D75E2273998D7009A8419 /* AppClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D75E1273998D7009A8419 /* AppClipViewController.swift */; };
+		DF9D75E427399952009A8419 /* AppClipStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */; };
+		DF9D75EA27399E6F009A8419 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E927399E6F009A8419 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		A8575817273990BA0029B1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A857581A273990BA0029B1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A857581C273990BA0029B1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9D75E1273998D7009A8419 /* AppClipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipViewController.swift; sourceTree = "<group>"; };
+		DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppClipStoryboard.storyboard; sourceTree = "<group>"; };
+		DF9D75E927399E6F009A8419 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DF9D75EE2739BC5B009A8419 /* AppClipReadME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AppClipReadME.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +69,24 @@
 				A857580D273990B80029B1EF /* SceneDelegate.swift */,
 				A857580F273990B80029B1EF /* ViewController.swift */,
 				A8575811273990B80029B1EF /* Main.storyboard */,
+				DF9D75E0273995F6009A8419 /* appClip */,
 				A8575817273990BA0029B1EF /* Assets.xcassets */,
 				A8575819273990BA0029B1EF /* LaunchScreen.storyboard */,
 				A857581C273990BA0029B1EF /* Info.plist */,
 				A8575814273990B80029B1EF /* Combriender.xcdatamodeld */,
 			);
 			path = Combriender;
+			sourceTree = "<group>";
+		};
+		DF9D75E0273995F6009A8419 /* appClip */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D75E1273998D7009A8419 /* AppClipViewController.swift */,
+				DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */,
+				DF9D75E927399E6F009A8419 /* art.scnassets */,
+				DF9D75EE2739BC5B009A8419 /* AppClipReadME.md */,
+			);
+			path = appClip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A857581B273990BA0029B1EF /* LaunchScreen.storyboard in Resources */,
+				DF9D75E427399952009A8419 /* AppClipStoryboard.storyboard in Resources */,
+				DF9D75EA27399E6F009A8419 /* art.scnassets in Resources */,
 				A8575818273990BA0029B1EF /* Assets.xcassets in Resources */,
 				A8575813273990B80029B1EF /* Main.storyboard in Resources */,
 			);
@@ -145,6 +166,7 @@
 				A857580C273990B80029B1EF /* AppDelegate.swift in Sources */,
 				A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */,
 				A857580E273990B80029B1EF /* SceneDelegate.swift in Sources */,
+				DF9D75E2273998D7009A8419 /* AppClipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +315,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PQ664D24K8;
+				DEVELOPMENT_TEAM = 35MNU2XY54;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Combriender/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,9 +344,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PQ664D24K8;
+				DEVELOPMENT_TEAM = 35MNU2XY54;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Combriender/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
