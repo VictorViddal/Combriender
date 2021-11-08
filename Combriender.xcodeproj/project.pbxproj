@@ -26,6 +26,9 @@
 		A8575817273990BA0029B1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A857581A273990BA0029B1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A857581C273990BA0029B1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8575825273991E10029B1EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A8575826273992120029B1EF /* READMESPM.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READMESPM.md; sourceTree = "<group>"; };
+		A8575827273992380029B1EF /* READMEAppClip.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READMEAppClip.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 		A857580A273990B80029B1EF /* Combriender */ = {
 			isa = PBXGroup;
 			children = (
+				A8575822273991A20029B1EF /* Combine */,
+				A8575824273991B70029B1EF /* SPM */,
+				A8575823273991AD0029B1EF /* AppClip */,
 				A857580B273990B80029B1EF /* AppDelegate.swift */,
 				A857580D273990B80029B1EF /* SceneDelegate.swift */,
 				A857580F273990B80029B1EF /* ViewController.swift */,
@@ -68,6 +74,30 @@
 				A8575814273990B80029B1EF /* Combriender.xcdatamodeld */,
 			);
 			path = Combriender;
+			sourceTree = "<group>";
+		};
+		A8575822273991A20029B1EF /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				A8575825273991E10029B1EF /* README.md */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		A8575823273991AD0029B1EF /* AppClip */ = {
+			isa = PBXGroup;
+			children = (
+				A8575827273992380029B1EF /* READMEAppClip.md */,
+			);
+			path = AppClip;
+			sourceTree = "<group>";
+		};
+		A8575824273991B70029B1EF /* SPM */ = {
+			isa = PBXGroup;
+			children = (
+				A8575826273992120029B1EF /* READMESPM.md */,
+			);
+			path = SPM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
