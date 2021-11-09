@@ -8,6 +8,8 @@
 		<false/>
 		<key>NSAppClipRequestLocationConfirmation</key>
 		<false/>
+		<key>Privacy - Camera Usage Description</key>
+		<string>asdad</string>
 	</dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
