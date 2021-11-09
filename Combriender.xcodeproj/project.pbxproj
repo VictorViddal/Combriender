@@ -14,10 +14,44 @@
 		A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8575814273990B80029B1EF /* Combriender.xcdatamodeld */; };
 		A8575818273990BA0029B1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8575817273990BA0029B1EF /* Assets.xcassets */; };
 		A857581B273990BA0029B1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8575819273990BA0029B1EF /* LaunchScreen.storyboard */; };
+		DF29E82B273AE8F5009609CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82A273AE8F5009609CE /* AppDelegate.swift */; };
+		DF29E82D273AE8F5009609CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82C273AE8F5009609CE /* SceneDelegate.swift */; };
+		DF29E834273AE8F6009609CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF29E833273AE8F6009609CE /* Assets.xcassets */; };
+		DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF29E835273AE8F6009609CE /* LaunchScreen.storyboard */; };
+		DF29E852273AE8F7009609CE /* CombrienderAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF29E828273AE8F5009609CE /* CombrienderAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF29E85D273AEA0D009609CE /* AppClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D75E1273998D7009A8419 /* AppClipViewController.swift */; };
+		DF29E85E273AEA14009609CE /* AppClipStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */; };
+		DF29E860273AEA26009609CE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E927399E6F009A8419 /* art.scnassets */; };
+		DF29E863273AEE17009609CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82E273AE8F5009609CE /* ViewController.swift */; };
+		DF29E864273AEE19009609CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF29E830273AE8F5009609CE /* Main.storyboard */; };
 		DF9D75E2273998D7009A8419 /* AppClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D75E1273998D7009A8419 /* AppClipViewController.swift */; };
 		DF9D75E427399952009A8419 /* AppClipStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */; };
 		DF9D75EA27399E6F009A8419 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E927399E6F009A8419 /* art.scnassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF29E850273AE8F7009609CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8575800273990B80029B1EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF29E827273AE8F5009609CE;
+			remoteInfo = CombrienderAppClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF29E853273AE8F7009609CE /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				DF29E852273AE8F7009609CE /* CombrienderAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A8575808273990B80029B1EF /* Combriender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combriender.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +63,16 @@
 		A8575817273990BA0029B1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A857581A273990BA0029B1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A857581C273990BA0029B1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF29E828273AE8F5009609CE /* CombrienderAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombrienderAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF29E82A273AE8F5009609CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF29E82C273AE8F5009609CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF29E82E273AE8F5009609CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF29E831273AE8F5009609CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF29E833273AE8F6009609CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF29E836273AE8F6009609CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF29E838273AE8F6009609CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF29E839273AE8F6009609CE /* CombrienderAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombrienderAppClip.entitlements; sourceTree = "<group>"; };
+		DF29E865273AF0B9009609CE /* Combriender.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Combriender.entitlements; sourceTree = "<group>"; };
 		DF9D75E1273998D7009A8419 /* AppClipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipViewController.swift; sourceTree = "<group>"; };
 		DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppClipStoryboard.storyboard; sourceTree = "<group>"; };
 		DF9D75E927399E6F009A8419 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -43,6 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF29E825273AE8F5009609CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -50,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A857580A273990B80029B1EF /* Combriender */,
+				DF29E829273AE8F5009609CE /* CombrienderAppClip */,
 				A8575809273990B80029B1EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				A8575808273990B80029B1EF /* Combriender.app */,
+				DF29E828273AE8F5009609CE /* CombrienderAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +118,7 @@
 		A857580A273990B80029B1EF /* Combriender */ = {
 			isa = PBXGroup;
 			children = (
+				DF29E865273AF0B9009609CE /* Combriender.entitlements */,
 				A857580B273990B80029B1EF /* AppDelegate.swift */,
 				A857580D273990B80029B1EF /* SceneDelegate.swift */,
 				A857580F273990B80029B1EF /* ViewController.swift */,
@@ -76,6 +130,21 @@
 				A8575814273990B80029B1EF /* Combriender.xcdatamodeld */,
 			);
 			path = Combriender;
+			sourceTree = "<group>";
+		};
+		DF29E829273AE8F5009609CE /* CombrienderAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				DF29E82A273AE8F5009609CE /* AppDelegate.swift */,
+				DF29E82C273AE8F5009609CE /* SceneDelegate.swift */,
+				DF29E82E273AE8F5009609CE /* ViewController.swift */,
+				DF29E830273AE8F5009609CE /* Main.storyboard */,
+				DF29E833273AE8F6009609CE /* Assets.xcassets */,
+				DF29E835273AE8F6009609CE /* LaunchScreen.storyboard */,
+				DF29E838273AE8F6009609CE /* Info.plist */,
+				DF29E839273AE8F6009609CE /* CombrienderAppClip.entitlements */,
+			);
+			path = CombrienderAppClip;
 			sourceTree = "<group>";
 		};
 		DF9D75E0273995F6009A8419 /* appClip */ = {
@@ -99,15 +168,34 @@
 				A8575804273990B80029B1EF /* Sources */,
 				A8575805273990B80029B1EF /* Frameworks */,
 				A8575806273990B80029B1EF /* Resources */,
+				DF29E853273AE8F7009609CE /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DF29E851273AE8F7009609CE /* PBXTargetDependency */,
 			);
 			name = Combriender;
 			productName = Combriender;
 			productReference = A8575808273990B80029B1EF /* Combriender.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DF29E827273AE8F5009609CE /* CombrienderAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF29E85A273AE8F7009609CE /* Build configuration list for PBXNativeTarget "CombrienderAppClip" */;
+			buildPhases = (
+				DF29E824273AE8F5009609CE /* Sources */,
+				DF29E825273AE8F5009609CE /* Frameworks */,
+				DF29E826273AE8F5009609CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombrienderAppClip;
+			productName = CombrienderAppClip;
+			productReference = DF29E828273AE8F5009609CE /* CombrienderAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -120,6 +208,9 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					A8575807273990B80029B1EF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DF29E827273AE8F5009609CE = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -138,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				A8575807273990B80029B1EF /* Combriender */,
+				DF29E827273AE8F5009609CE /* CombrienderAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +244,18 @@
 				DF9D75EA27399E6F009A8419 /* art.scnassets in Resources */,
 				A8575818273990BA0029B1EF /* Assets.xcassets in Resources */,
 				A8575813273990B80029B1EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF29E826273AE8F5009609CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */,
+				DF29E864273AEE19009609CE /* Main.storyboard in Resources */,
+				DF29E860273AEA26009609CE /* art.scnassets in Resources */,
+				DF29E85E273AEA14009609CE /* AppClipStoryboard.storyboard in Resources */,
+				DF29E834273AE8F6009609CE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +274,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF29E824273AE8F5009609CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF29E863273AEE17009609CE /* ViewController.swift in Sources */,
+				DF29E82B273AE8F5009609CE /* AppDelegate.swift in Sources */,
+				DF29E85D273AEA0D009609CE /* AppClipViewController.swift in Sources */,
+				DF29E82D273AE8F5009609CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF29E851273AE8F7009609CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF29E827273AE8F5009609CE /* CombrienderAppClip */;
+			targetProxy = DF29E850273AE8F7009609CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A8575811273990B80029B1EF /* Main.storyboard */ = {
@@ -185,6 +308,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				A857581A273990BA0029B1EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF29E830273AE8F5009609CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF29E831273AE8F5009609CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF29E835273AE8F6009609CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF29E836273AE8F6009609CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -311,8 +450,10 @@
 		A8575820273990BA0029B1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Combriender/Combriender.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35MNU2XY54;
@@ -331,6 +472,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,8 +482,10 @@
 		A8575821273990BA0029B1EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Combriender/Combriender.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35MNU2XY54;
@@ -359,6 +503,67 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF29E854273AE8F7009609CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombrienderAppClip/CombrienderAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35MNU2XY54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF29E855273AE8F7009609CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombrienderAppClip/CombrienderAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35MNU2XY54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -383,6 +588,15 @@
 			buildConfigurations = (
 				A8575820273990BA0029B1EF /* Debug */,
 				A8575821273990BA0029B1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF29E85A273AE8F7009609CE /* Build configuration list for PBXNativeTarget "CombrienderAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF29E854273AE8F7009609CE /* Debug */,
+				DF29E855273AE8F7009609CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
