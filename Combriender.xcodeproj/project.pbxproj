@@ -139,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				DF29E865273AF0B9009609CE /* Combriender.entitlements */,
-				DF9D75E0273995F6009A8419 /* Pokemon3dFeature */,
 				A857587D273AECB30029B1EF /* Navigation */,
 				A8575822273991A20029B1EF /* Combine */,
 				A8575824273991B70029B1EF /* SPM */,
@@ -166,6 +165,7 @@
 		A8575823273991AD0029B1EF /* AppClip */ = {
 			isa = PBXGroup;
 			children = (
+				DF9D75E0273995F6009A8419 /* Pokemon3dFeature */,
 				A8575827273992380029B1EF /* READMEAppClip.md */,
 			);
 			path = AppClip;
@@ -667,6 +667,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -697,6 +698,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
