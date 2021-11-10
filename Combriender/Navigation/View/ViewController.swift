@@ -42,6 +42,10 @@ class ViewController: UIViewController {
     }
     
     @objc func handleTapAppClip(_ sender: UITapGestureRecognizer? = nil) {
-        // Insert  Appclip navigation
+        let storyboard = UIStoryboard(name: "AppClipStoryboard", bundle: .main)
+        if let viewController = storyboard.instantiateViewController(identifier: "AppClipStoryboard") as? AppClipViewController {
+            print("a")
+            navigationController?.pushViewController(viewController, animated: false)
+        }
     }
 }
