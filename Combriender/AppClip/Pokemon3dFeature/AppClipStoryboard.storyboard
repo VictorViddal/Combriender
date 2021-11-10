@@ -11,7 +11,7 @@
         <!--App Clip View Controller-->
         <scene sceneID="aQO-81-ipz">
             <objects>
-                <viewController id="xic-3p-2Ec" customClass="AppClipViewController" customModule="Combriender" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AppClipStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xic-3p-2Ec" customClass="AppClipViewController" customModule="Combriender" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="umf-8a-PGV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
