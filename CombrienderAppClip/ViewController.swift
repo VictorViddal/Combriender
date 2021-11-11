@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Combriender
+//  CombrienderAppClip
 //
-//  Created by Victor Vidal on 08/11/21.
+//  Created by Rafael Dias Gonçalves on 09/11/21.
 //
 
 import UIKit
