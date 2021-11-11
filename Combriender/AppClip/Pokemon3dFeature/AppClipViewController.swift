@@ -24,12 +24,14 @@ class AppClipViewController: UIViewController, ARSCNViewDelegate {
         sceneView.autoenablesDefaultLighting = true
         
     }
-    
+ 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
+        
+        
         
         if let imageToTrack = ARReferenceImage.referenceImages(inGroupNamed: "Cards", bundle: Bundle.main) {
             
@@ -53,7 +55,9 @@ class AppClipViewController: UIViewController, ARSCNViewDelegate {
         
         // Pause the view's session
         sceneView.session.pause()
+        
     }
+    
     
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode()
@@ -65,20 +69,7 @@ class AppClipViewController: UIViewController, ARSCNViewDelegate {
             plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
             
             let planeNode = SCNNode(geometry: plane)
-            
-            //            if imageAnchor.referenceImage.name == "coverVol2" {
-            //                if let pokeScene = SCNScene(named: "art.scnassets/eevee.scn") {
-            //
-            //                    if let pokeNode = pokeScene.rootNode.childNodes.first {
-            //
-            //                        pokeNode.eulerAngles.x = .pi/2
-            //
-            //                        planeNode.addChildNode(pokeNode)
-            //
-            //                    }
-            //                }
-            //            }
-            
+ 
             if imageAnchor.referenceImage.name == "cover1" {
                 if let pokeScene = SCNScene(named: "art.scnassets/eevee.scn") {
                     
@@ -92,26 +83,25 @@ class AppClipViewController: UIViewController, ARSCNViewDelegate {
                 }
             }
             
-            //            if imageAnchor.referenceImage.name == "coverVol3" {
-            //                if let pokeScene = SCNScene(named: "art.scnassets/oddish.scn") {
-            //
-            //                    if let pokeNode = pokeScene.rootNode.childNodes.first {
-            //
-            //                        pokeNode.eulerAngles.x = .pi/2
-            //
-            //                        planeNode.addChildNode(pokeNode)
-            //
-            //                    }
-            //                }
-            //            }
-            //
             if imageAnchor.referenceImage.name == "cover2" {
-                if let pokeScene = SCNScene(named: "art.scnassets/oddish.scn") {
+                if let pokeScene = SCNScene(named: "art.scnassets/Pikachu OBJ.obj") {
                     
                     if let pokeNode = pokeScene.rootNode.childNodes.first {
                         
                         pokeNode.eulerAngles.x = .pi/2
+                        pokeNode.scale = SCNVector3(x: 5, y: 5, z: 5)
+                        planeNode.addChildNode(pokeNode)
                         
+                    }
+                }
+            }
+            if imageAnchor.referenceImage.name == "cover3" {
+                if let pokeScene = SCNScene(named: "art.scnassets/Charmander_ColladaMax.DAE") {
+                    
+                    if let pokeNode = pokeScene.rootNode.childNodes.first {
+                        
+                        pokeNode.eulerAngles.x = .pi/2
+                        pokeNode.scale = SCNVector3(x: 5, y: 5, z: 5)
                         planeNode.addChildNode(pokeNode)
                         
                     }

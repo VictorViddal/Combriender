@@ -20,7 +20,6 @@
 		A857587B273AEB3D0029B1EF /* CombinedetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */; };
 		DF29E82B273AE8F5009609CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82A273AE8F5009609CE /* AppDelegate.swift */; };
 		DF29E82D273AE8F5009609CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82C273AE8F5009609CE /* SceneDelegate.swift */; };
-		DF29E834273AE8F6009609CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF29E833273AE8F6009609CE /* Assets.xcassets */; };
 		DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF29E835273AE8F6009609CE /* LaunchScreen.storyboard */; };
 		DF29E852273AE8F7009609CE /* CombrienderAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF29E828273AE8F5009609CE /* CombrienderAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DF29E85D273AEA0D009609CE /* AppClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D75E1273998D7009A8419 /* AppClipViewController.swift */; };
@@ -31,6 +30,7 @@
 		DF9D75E2273998D7009A8419 /* AppClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D75E1273998D7009A8419 /* AppClipViewController.swift */; };
 		DF9D75E427399952009A8419 /* AppClipStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */; };
 		DF9D75EA27399E6F009A8419 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E927399E6F009A8419 /* art.scnassets */; };
+		DFC2170A273DA90F00080809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8575817273990BA0029B1EF /* Assets.xcassets */; };
 		DFFAA2F1273C421300A3743A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA2F0273C421300A3743A /* ViewController.swift */; };
 		DFFAA2F4273C422300A3743A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFAA2F2273C422300A3743A /* Navigation.storyboard */; };
 		DFFAA2F6273C425100A3743A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA2F5273C425100A3743A /* AppDelegate.swift */; };
@@ -92,7 +92,6 @@
 		DF9D75E1273998D7009A8419 /* AppClipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipViewController.swift; sourceTree = "<group>"; };
 		DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppClipStoryboard.storyboard; sourceTree = "<group>"; };
 		DF9D75E927399E6F009A8419 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		DF9D75EE2739BC5B009A8419 /* AppClipReadME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AppClipReadME.md; sourceTree = "<group>"; };
 		DFFAA2F0273C421300A3743A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFFAA2F3273C422300A3743A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Navigation.storyboard; sourceTree = "<group>"; };
 		DFFAA2F5273C425100A3743A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -288,7 +287,6 @@
 				DF9D75E1273998D7009A8419 /* AppClipViewController.swift */,
 				DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */,
 				DF9D75E927399E6F009A8419 /* art.scnassets */,
-				DF9D75EE2739BC5B009A8419 /* AppClipReadME.md */,
 			);
 			path = Pokemon3dFeature;
 			sourceTree = "<group>";
@@ -392,8 +390,8 @@
 				DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */,
 				DF29E864273AEE19009609CE /* Main.storyboard in Resources */,
 				DF29E860273AEA26009609CE /* art.scnassets in Resources */,
+				DFC2170A273DA90F00080809 /* Assets.xcassets in Resources */,
 				DF29E85E273AEA14009609CE /* AppClipStoryboard.storyboard in Resources */,
-				DF29E834273AE8F6009609CE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
