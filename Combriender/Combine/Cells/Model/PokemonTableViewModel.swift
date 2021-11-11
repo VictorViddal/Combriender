@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import UIKit
+struct PokemonView: Equatable {
+    
+    var name = String()
+    var image = UIImage()
+}
