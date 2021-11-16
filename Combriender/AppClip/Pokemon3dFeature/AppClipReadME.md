@@ -1,3 +1,0 @@
-#  App Clip
-
--Criar esquema
