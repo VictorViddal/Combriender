@@ -32,7 +32,6 @@ class ViewController: UIViewController {
     @objc func handleTapCombine(_ sender: UITapGestureRecognizer? = nil) {
         let storyboard = UIStoryboard(name: "Combine", bundle: .main)
         if let viewController = storyboard.instantiateViewController(identifier: "CombineViewController") as? CombineViewController {
-            print("a")
             navigationController?.pushViewController(viewController, animated: false)
         }
     }

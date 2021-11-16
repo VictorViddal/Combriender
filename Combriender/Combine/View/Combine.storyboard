@@ -45,7 +45,7 @@
         <!--Combinedetail View Controller-->
         <scene sceneID="whB-Ei-nJe">
             <objects>
-                <viewController id="Tyq-mp-N6M" customClass="CombinedetailViewController" customModule="Combriender" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CombinedetailViewController" id="Tyq-mp-N6M" customClass="CombinedetailViewController" customModule="Combriender" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1EO-EV-UpA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

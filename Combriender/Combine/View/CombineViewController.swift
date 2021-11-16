@@ -6,14 +6,26 @@
 //
 
 import UIKit
+import Combine
+import CoreData
 
 class CombineViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    
+    var viewModel = CombineViewModel()
+    var cancelablle = Set<AnyCancellable>()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         settingTableViewCell()
-        // Do any additional setup after loading the view.
+  
+        viewModel.getPokemonData().sink(receiveValue: { result in
+            self.viewModel.pokemons = result
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }).store(in: &cancelablle)
     }
 
     private func settingTableViewCell() {
@@ -24,19 +36,22 @@ class CombineViewController: UIViewController {
 extension CombineViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return viewModel.pokemons.results.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "PokemonTableViewCell", for: indexPath) as? PokemonTableViewCell else {return UITableViewCell()}
-        cell.pokemonImage.image = UIImage(systemName: "heart")
-        cell.pokemonName.text = "teste"
-        return cell
+        viewModel.generateTableViewCell(indexPath: indexPath, tableView: tableView)
     }
     
     
 }
 
 extension CombineViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Combine", bundle: .main)
+        if let viewController = storyboard.instantiateViewController(identifier: "CombinedetailViewController") as? CombinedetailViewController{
+            viewController.name = viewModel.pokemons.results[indexPath.row]?.name
+            navigationController?.pushViewController(viewController, animated: false)
+        }
+    }
 }

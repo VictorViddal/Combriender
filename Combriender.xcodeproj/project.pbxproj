@@ -18,6 +18,7 @@
 		A8575877273AE6470029B1EF /* PokemonTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575876273AE6470029B1EF /* PokemonTableViewModel.swift */; };
 		A8575879273AE70D0029B1EF /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575878273AE70D0029B1EF /* CombineViewController.swift */; };
 		A857587B273AEB3D0029B1EF /* CombinedetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */; };
+		A8575882273C42100029B1EF /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575881273C42100029B1EF /* CombineViewModel.swift */; };
 		DF29E82B273AE8F5009609CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82A273AE8F5009609CE /* AppDelegate.swift */; };
 		DF29E82D273AE8F5009609CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82C273AE8F5009609CE /* SceneDelegate.swift */; };
 		DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF29E835273AE8F6009609CE /* LaunchScreen.storyboard */; };
@@ -79,6 +80,7 @@
 		A8575876273AE6470029B1EF /* PokemonTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewModel.swift; sourceTree = "<group>"; };
 		A8575878273AE70D0029B1EF /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
 		A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedetailViewController.swift; sourceTree = "<group>"; };
+		A8575881273C42100029B1EF /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
 		DF29E828273AE8F5009609CE /* CombrienderAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombrienderAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF29E82A273AE8F5009609CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF29E82C273AE8F5009609CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		A857582B273993430029B1EF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A8575881273C42100029B1EF /* CombineViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -411,6 +414,8 @@
 				A857587B273AEB3D0029B1EF /* CombinedetailViewController.swift in Sources */,
 				DFFAA2F8273C425900A3743A /* SceneDelegate.swift in Sources */,
 				A8575879273AE70D0029B1EF /* CombineViewController.swift in Sources */,
+				A857580E273990B80029B1EF /* SceneDelegate.swift in Sources */,
+				A8575882273C42100029B1EF /* CombineViewModel.swift in Sources */,
 				DFFAA2F6273C425100A3743A /* AppDelegate.swift in Sources */,
 				DF9D75E2273998D7009A8419 /* AppClipViewController.swift in Sources */,
 			);
