@@ -20,12 +20,21 @@ class CombineViewModel {
             guard let url = URL(string: self.apistring) else {return}
 
                let task = URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
+                   
+                   switch error {
+                   case .none:
+                       break
+                   case .some(_):
+                       promise(.failure(error as! Never))
+                   }
 
                  if let data = data,
                    let pokemon = try? JSONDecoder().decode(Result.self, from: data) {
                      promise(.success(pokemon))
+                     
                  }
-               })
+               } )
+            
                task.resume()
             
         }
@@ -39,7 +48,7 @@ class CombineViewModel {
         return cell
     }
     
-    func getPokemonDetail(pokemon: String) -> Future<PokemonData, Never> {
+    func getPokemonDetail(pokemon: String) -> Future<PokemonData, Errors> {
         return Future { promise in
             
             guard let url = URL(string: "https://pokeapi.co/api/v2/pokemon/" + "\(pokemon)") else {return}
@@ -49,6 +58,20 @@ class CombineViewModel {
                  if let data = data,
                    let pokemon = try? JSONDecoder().decode(PokemonData.self, from: data) {
                      promise(.success(pokemon))
+                     
+                     if pokemon.weight == nil {
+                         promise(.failure(.weightUnavailable))
+                     }
+                     if pokemon.height == nil {
+                         promise(.failure(.heightUnavailable))
+                     }
+                     if pokemon.id == nil {
+                         promise(.failure(.idUnavailable))
+                     }
+                     if pokemon.is_default == nil {
+                         promise(.failure(.starterUnavailable))
+                     }
+                                          
                  }
                })
                task.resume()
@@ -69,4 +92,15 @@ class CombineViewModel {
         
     
     }
+    
+    enum Errors: Error {
+        case weightUnavailable
+        case heightUnavailable
+        case idUnavailable
+        case starterUnavailable
+        case imageUnavailable
+        case generic
+        
+    }
+    
 }

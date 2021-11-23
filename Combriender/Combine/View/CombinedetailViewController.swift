@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import AVFoundation
 class CombinedetailViewController: UIViewController {
 
     @IBOutlet weak var pokemonImage: UIImageView!
@@ -22,29 +23,58 @@ class CombinedetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.getPokemonDetail(pokemon: name!).sink { result in
-            self.viewModel.pokemon = result
-            DispatchQueue.main.async {
-                self.pokemonHeight.text = String(self.viewModel.pokemon.height!)
-                self.pokemonWeight.text = String(self.viewModel.pokemon.weight!)
-                self.pokemonIsStarter.text = self.viewModel.pokemon.is_default! ? "Sim" : "Não"
-                self.pokemonPokedexNumber.text = String(self.viewModel.pokemon.id!)
-            }
-            self.viewModel.receivePokemonImageFromPath(id: self.viewModel.pokemon.id!).sink { resultImage in
-                DispatchQueue.main.async {
-                    self.pokemonImage.image = resultImage
+        viewModel.getPokemonDetail(pokemon: name!).sink { completion in
+            switch completion {
+                
+            case .finished:
+                break
+            case .failure(let error):
+                switch error{case .weightUnavailable:
+                    print("weight unvailable")
+                case .heightUnavailable:
+                    break
+                case .idUnavailable:
+                    break
+                case .starterUnavailable:
+                    break
+                case .imageUnavailable:
+                    break
+                case .generic:
+                    break
                 }
-            }.store(in: &self.cancelablle)
-        }.store(in: &cancelablle)
+            }
+        } receiveValue: { result in
+            self.viewModel.pokemon = result
+                       DispatchQueue.main.async {
+                           self.pokemonHeight.text = String(self.viewModel.pokemon.height!)
+                           self.pokemonWeight.text = String(self.viewModel.pokemon.weight!)
+                           self.pokemonIsStarter.text = self.viewModel.pokemon.is_default! ? "Sim" : "Não"
+                           self.pokemonPokedexNumber.text = String(self.viewModel.pokemon.id!)
+                       }
+                       self.viewModel.receivePokemonImageFromPath(id: self.viewModel.pokemon.id!).sink { resultImage in
+                           DispatchQueue.main.async {
+                               self.pokemonImage.image = resultImage
+                           }
+                       }.store(in: &self.cancelablle)
+        }
+
         
         
         
     }
     override func viewWillAppear(_ animated: Bool) {
-        viewModel.getPokemonDetail(pokemon: name!).sink { result in
+        viewModel.getPokemonDetail(pokemon: name!).sink(receiveCompletion: { completion in
+            switch completion {
+            
+            case .finished:
+                break
+            case .failure(_):
+                break
+            }
+        }, receiveValue: { result in
             self.viewModel.pokemon = result
             print(result)
-        }.store(in: &cancelablle)
+        }).store(in: &cancelablle)
     }
 
     

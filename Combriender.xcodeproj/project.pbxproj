@@ -414,7 +414,6 @@
 				A857587B273AEB3D0029B1EF /* CombinedetailViewController.swift in Sources */,
 				DFFAA2F8273C425900A3743A /* SceneDelegate.swift in Sources */,
 				A8575879273AE70D0029B1EF /* CombineViewController.swift in Sources */,
-				A857580E273990B80029B1EF /* SceneDelegate.swift in Sources */,
 				A8575882273C42100029B1EF /* CombineViewModel.swift in Sources */,
 				DFFAA2F6273C425100A3743A /* AppDelegate.swift in Sources */,
 				DF9D75E2273998D7009A8419 /* AppClipViewController.swift in Sources */,
@@ -609,7 +608,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -641,7 +640,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

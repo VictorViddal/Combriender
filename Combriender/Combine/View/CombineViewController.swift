@@ -20,14 +20,24 @@ class CombineViewController: UIViewController {
         super.viewDidLoad()
         settingTableViewCell()
   
-        viewModel.getPokemonData().sink(receiveValue: { result in
+        viewModel.getPokemonData().sink { completion in
+        switch completion {
+        case .failure(let error):
+            switch error {
+            
+            }
+        case .finished:
+            break
+       
+        }
+        } receiveValue: { result in
             self.viewModel.pokemons = result
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
-        }).store(in: &cancelablle)
+        }.store(in: &self.cancelablle)
     }
-
+    
     private func settingTableViewCell() {
         tableView.register(UINib(nibName: "PokemonTableViewCell", bundle: .main), forCellReuseIdentifier: "PokemonTableViewCell")
     }
@@ -55,3 +65,4 @@ extension CombineViewController: UITableViewDelegate {
         }
     }
 }
+
