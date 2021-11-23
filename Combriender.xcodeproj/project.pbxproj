@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C8AD3F6273C474B007B02EE /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F5273C474B007B02EE /* ContentViewController.swift */; };
+		5C8AD3FA273C4F98007B02EE /* 22892-pikachu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */; };
+		5C8AD3FB273C4F98007B02EE /* 39054-swablu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */; };
+		5C8AD3FC273C4F98007B02EE /* 67858-pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F9273C4F98007B02EE /* 67858-pokemon.json */; };
+		5CCC270F27399B4C007273B5 /* SwiftPackageManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */; };
+		5CCC271227399F69007273B5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271127399F69007273B5 /* Lottie */; };
+		5CCC271527399FED007273B5 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271427399FED007273B5 /* FloatingPanel */; };
+		5CCC27182739A46D007273B5 /* SwiftPackegeManagerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */; };
+		5CCC271A2739A48D007273B5 /* SwiftPackegeManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */; };
+		A857580C273990B80029B1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857580B273990B80029B1EF /* AppDelegate.swift */; };
+		A857580E273990B80029B1EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857580D273990B80029B1EF /* SceneDelegate.swift */; };
+		A8575810273990B80029B1EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857580F273990B80029B1EF /* ViewController.swift */; };
+		A8575813273990B80029B1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8575811273990B80029B1EF /* Main.storyboard */; };
 		A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8575814273990B80029B1EF /* Combriender.xcdatamodeld */; };
 		A8575818273990BA0029B1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8575817273990BA0029B1EF /* Assets.xcassets */; };
 		A857581B273990BA0029B1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8575819273990BA0029B1EF /* LaunchScreen.storyboard */; };
@@ -64,6 +77,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C8AD3F5273C474B007B02EE /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "22892-pikachu.json"; sourceTree = "<group>"; };
+		5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "39054-swablu.json"; sourceTree = "<group>"; };
+		5C8AD3F9273C4F98007B02EE /* 67858-pokemon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "67858-pokemon.json"; sourceTree = "<group>"; };
+		5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageManagerViewModel.swift; sourceTree = "<group>"; };
+		5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwiftPackegeManagerView.storyboard; sourceTree = "<group>"; };
+		5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackegeManagerViewController.swift; sourceTree = "<group>"; };
 		A8575808273990B80029B1EF /* Combriender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combriender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8575815273990B80029B1EF /* Combriender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Combriender.xcdatamodel; sourceTree = "<group>"; };
 		A8575817273990BA0029B1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCC271227399F69007273B5 /* Lottie in Frameworks */,
+				5CCC271527399FED007273B5 /* FloatingPanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +140,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CCC27162739A43F007273B5 /* SPM */ = {
+			isa = PBXGroup;
+			children = (
+				5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */,
+				5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */,
+				5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */,
+				5C8AD3F5273C474B007B02EE /* ContentViewController.swift */,
+			);
+			path = SPM;
+			sourceTree = "<group>";
+		};
 		A85757FF273990B80029B1EF = {
 			isa = PBXGroup;
 			children = (
@@ -139,10 +172,17 @@
 		A857580A273990B80029B1EF /* Combriender */ = {
 			isa = PBXGroup;
 			children = (
+				A857580B273990B80029B1EF /* AppDelegate.swift */,
+				A857580D273990B80029B1EF /* SceneDelegate.swift */,
+				5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */,
+				5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */,
+				5C8AD3F9273C4F98007B02EE /* 67858-pokemon.json */,
+				A857580F273990B80029B1EF /* ViewController.swift */,
+				5CCC27162739A43F007273B5 /* SPM */,
+				A8575811273990B80029B1EF /* Main.storyboard */,
 				DF29E865273AF0B9009609CE /* Combriender.entitlements */,
 				A857587D273AECB30029B1EF /* Navigation */,
 				A8575822273991A20029B1EF /* Combine */,
-				A8575824273991B70029B1EF /* SPM */,
 				A8575823273991AD0029B1EF /* AppClip */,
 				A8575817273990BA0029B1EF /* Assets.xcassets */,
 				A857581C273990BA0029B1EF /* Info.plist */,
@@ -312,6 +352,10 @@
 				DF29E851273AE8F7009609CE /* PBXTargetDependency */,
 			);
 			name = Combriender;
+			packageProductDependencies = (
+				5CCC271127399F69007273B5 /* Lottie */,
+				5CCC271427399FED007273B5 /* FloatingPanel */,
+			);
 			productName = Combriender;
 			productReference = A8575808273990B80029B1EF /* Combriender.app */;
 			productType = "com.apple.product-type.application";
@@ -360,6 +404,10 @@
 				Base,
 			);
 			mainGroup = A85757FF273990B80029B1EF;
+			packageReferences = (
+				5CCC271027399F69007273B5 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				5CCC271327399FED007273B5 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+			);
 			productRefGroup = A8575809273990B80029B1EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -375,12 +423,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCC27182739A46D007273B5 /* SwiftPackegeManagerView.storyboard in Resources */,
 				A857581B273990BA0029B1EF /* LaunchScreen.storyboard in Resources */,
 				DF9D75E427399952009A8419 /* AppClipStoryboard.storyboard in Resources */,
 				DF9D75EA27399E6F009A8419 /* art.scnassets in Resources */,
 				DFFAA2F4273C422300A3743A /* Navigation.storyboard in Resources */,
 				A857583327399EBC0029B1EF /* PokemonTableViewCell.xib in Resources */,
 				A8575818273990BA0029B1EF /* Assets.xcassets in Resources */,
+				5C8AD3FC273C4F98007B02EE /* 67858-pokemon.json in Resources */,
+				5C8AD3FB273C4F98007B02EE /* 39054-swablu.json in Resources */,
+				A8575813273990B80029B1EF /* Main.storyboard in Resources */,
+				5C8AD3FA273C4F98007B02EE /* 22892-pikachu.json in Resources */,
 				A857582F27399DC20029B1EF /* Combine.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +458,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8575810273990B80029B1EF /* ViewController.swift in Sources */,
+				5CCC270F27399B4C007273B5 /* SwiftPackageManagerViewModel.swift in Sources */,
+				A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */,
+				A857580E273990B80029B1EF /* SceneDelegate.swift in Sources */,
+				5CCC271A2739A48D007273B5 /* SwiftPackegeManagerViewController.swift in Sources */,
+				5C8AD3F6273C474B007B02EE /* ContentViewController.swift in Sources */,
 				A857583A27399FD60029B1EF /* PokemonViewCellViewModel.swift in Sources */,
 				A8575877273AE6470029B1EF /* PokemonTableViewModel.swift in Sources */,
 				A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */,
@@ -751,6 +810,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CCC271027399F69007273B5 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		5CCC271327399FED007273B5 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scenee/FloatingPanel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CCC271127399F69007273B5 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CCC271027399F69007273B5 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		5CCC271427399FED007273B5 /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CCC271327399FED007273B5 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A8575814273990B80029B1EF /* Combriender.xcdatamodeld */ = {
