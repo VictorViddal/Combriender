@@ -56,7 +56,7 @@ class CombinedetailViewController: UIViewController {
                                self.pokemonImage.image = resultImage
                            }
                        }.store(in: &self.cancelablle)
-        }
+        }.store(in: &self.cancelablle)
 
         
         
