@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C822A23274EB44200B2EC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C822A22274EB44200B2EC57 /* AppDelegate.swift */; };
+		5C822A25274EB44200B2EC57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C822A24274EB44200B2EC57 /* SceneDelegate.swift */; };
+		5C822A27274EB44200B2EC57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C822A26274EB44200B2EC57 /* ViewController.swift */; };
+		5C822A2A274EB44200B2EC57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C822A28274EB44200B2EC57 /* Main.storyboard */; };
+		5C822A2C274EB44400B2EC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C822A2B274EB44400B2EC57 /* Assets.xcassets */; };
+		5C822A2F274EB44400B2EC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C822A2D274EB44400B2EC57 /* LaunchScreen.storyboard */; };
+		5C822A34274EB44400B2EC57 /* SPMAppClip-.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 5C822A20274EB44200B2EC57 /* SPMAppClip-.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5C8AD3F6273C474B007B02EE /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F5273C474B007B02EE /* ContentViewController.swift */; };
 		5C8AD3FA273C4F98007B02EE /* 22892-pikachu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */; };
 		5C8AD3FB273C4F98007B02EE /* 39054-swablu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */; };
@@ -16,10 +23,9 @@
 		5CCC271527399FED007273B5 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271427399FED007273B5 /* FloatingPanel */; };
 		5CCC27182739A46D007273B5 /* SwiftPackegeManagerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */; };
 		5CCC271A2739A48D007273B5 /* SwiftPackegeManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */; };
-		A857580C273990B80029B1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857580B273990B80029B1EF /* AppDelegate.swift */; };
-		A857580E273990B80029B1EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857580D273990B80029B1EF /* SceneDelegate.swift */; };
-		A8575810273990B80029B1EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857580F273990B80029B1EF /* ViewController.swift */; };
-		A8575813273990B80029B1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8575811273990B80029B1EF /* Main.storyboard */; };
+		A857580E273990B80029B1EF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A8575810273990B80029B1EF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A8575813273990B80029B1EF /* (null) in Resources */ = {isa = PBXBuildFile; };
 		A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8575814273990B80029B1EF /* Combriender.xcdatamodeld */; };
 		A8575818273990BA0029B1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8575817273990BA0029B1EF /* Assets.xcassets */; };
 		A857581B273990BA0029B1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8575819273990BA0029B1EF /* LaunchScreen.storyboard */; };
@@ -31,16 +37,6 @@
 		A8575877273AE6470029B1EF /* PokemonTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575876273AE6470029B1EF /* PokemonTableViewModel.swift */; };
 		A8575879273AE70D0029B1EF /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575878273AE70D0029B1EF /* CombineViewController.swift */; };
 		A857587B273AEB3D0029B1EF /* CombinedetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */; };
-		DF29E82B273AE8F5009609CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82A273AE8F5009609CE /* AppDelegate.swift */; };
-		DF29E82D273AE8F5009609CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82C273AE8F5009609CE /* SceneDelegate.swift */; };
-		DF29E834273AE8F6009609CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF29E833273AE8F6009609CE /* Assets.xcassets */; };
-		DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF29E835273AE8F6009609CE /* LaunchScreen.storyboard */; };
-		DF29E852273AE8F7009609CE /* CombrienderAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF29E828273AE8F5009609CE /* CombrienderAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DF29E85D273AEA0D009609CE /* AppClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D75E1273998D7009A8419 /* AppClipViewController.swift */; };
-		DF29E85E273AEA14009609CE /* AppClipStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */; };
-		DF29E860273AEA26009609CE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E927399E6F009A8419 /* art.scnassets */; };
-		DF29E863273AEE17009609CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82E273AE8F5009609CE /* ViewController.swift */; };
-		DF29E864273AEE19009609CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF29E830273AE8F5009609CE /* Main.storyboard */; };
 		DF9D75E2273998D7009A8419 /* AppClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D75E1273998D7009A8419 /* AppClipViewController.swift */; };
 		DF9D75E427399952009A8419 /* AppClipStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E327399952009A8419 /* AppClipStoryboard.storyboard */; };
 		DF9D75EA27399E6F009A8419 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9D75E927399E6F009A8419 /* art.scnassets */; };
@@ -48,16 +44,15 @@
 		DFFAA2F4273C422300A3743A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFAA2F2273C422300A3743A /* Navigation.storyboard */; };
 		DFFAA2F6273C425100A3743A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA2F5273C425100A3743A /* AppDelegate.swift */; };
 		DFFAA2F8273C425900A3743A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA2F7273C425900A3743A /* SceneDelegate.swift */; };
-		DFFAA2FA273C433B00A3743A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFAA2F2273C422300A3743A /* Navigation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF29E850273AE8F7009609CE /* PBXContainerItemProxy */ = {
+		5C822A32274EB44400B2EC57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A8575800273990B80029B1EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF29E827273AE8F5009609CE;
-			remoteInfo = CombrienderAppClip;
+			remoteGlobalIDString = 5C822A1F274EB44200B2EC57;
+			remoteInfo = "SPMAppClip-";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -68,7 +63,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
 			dstSubfolderSpec = 16;
 			files = (
-				DF29E852273AE8F7009609CE /* CombrienderAppClip.app in Embed App Clips */,
+				5C822A34274EB44400B2EC57 /* SPMAppClip-.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +71,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C822A20274EB44200B2EC57 /* SPMAppClip-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPMAppClip-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C822A22274EB44200B2EC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C822A24274EB44200B2EC57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C822A26274EB44200B2EC57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C822A29274EB44200B2EC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C822A2B274EB44400B2EC57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C822A2E274EB44400B2EC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C822A30274EB44400B2EC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C822A31274EB44400B2EC57 /* SPMAppClip_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPMAppClip_.entitlements; sourceTree = "<group>"; };
 		5C8AD3F5273C474B007B02EE /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "22892-pikachu.json"; sourceTree = "<group>"; };
 		5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "39054-swablu.json"; sourceTree = "<group>"; };
@@ -89,7 +93,6 @@
 		A857581A273990BA0029B1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A857581C273990BA0029B1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8575825273991E10029B1EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A8575826273992120029B1EF /* READMESPM.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READMESPM.md; sourceTree = "<group>"; };
 		A8575827273992380029B1EF /* READMEAppClip.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READMEAppClip.md; sourceTree = "<group>"; };
 		A857582C2739979B0029B1EF /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
 		A857582E27399DC20029B1EF /* Combine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Combine.storyboard; sourceTree = "<group>"; };
@@ -99,7 +102,6 @@
 		A8575876273AE6470029B1EF /* PokemonTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewModel.swift; sourceTree = "<group>"; };
 		A8575878273AE70D0029B1EF /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
 		A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedetailViewController.swift; sourceTree = "<group>"; };
-		DF29E828273AE8F5009609CE /* CombrienderAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombrienderAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF29E82A273AE8F5009609CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF29E82C273AE8F5009609CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DF29E82E273AE8F5009609CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5C822A1D274EB44200B2EC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8575805273990B80029B1EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,16 +138,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF29E825273AE8F5009609CE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C822A21274EB44200B2EC57 /* SPMAppClip- */ = {
+			isa = PBXGroup;
+			children = (
+				5C822A22274EB44200B2EC57 /* AppDelegate.swift */,
+				5C822A24274EB44200B2EC57 /* SceneDelegate.swift */,
+				5C822A26274EB44200B2EC57 /* ViewController.swift */,
+				5C822A28274EB44200B2EC57 /* Main.storyboard */,
+				5C822A2B274EB44400B2EC57 /* Assets.xcassets */,
+				5C822A2D274EB44400B2EC57 /* LaunchScreen.storyboard */,
+				5C822A30274EB44400B2EC57 /* Info.plist */,
+				5C822A31274EB44400B2EC57 /* SPMAppClip_.entitlements */,
+			);
+			path = "SPMAppClip-";
+			sourceTree = "<group>";
+		};
 		5CCC27162739A43F007273B5 /* SPM */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +172,7 @@
 			children = (
 				A857580A273990B80029B1EF /* Combriender */,
 				DF29E829273AE8F5009609CE /* CombrienderAppClip */,
+				5C822A21274EB44200B2EC57 /* SPMAppClip- */,
 				A8575809273990B80029B1EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,7 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				A8575808273990B80029B1EF /* Combriender.app */,
-				DF29E828273AE8F5009609CE /* CombrienderAppClip.app */,
+				5C822A20274EB44200B2EC57 /* SPMAppClip-.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,14 +189,10 @@
 		A857580A273990B80029B1EF /* Combriender */ = {
 			isa = PBXGroup;
 			children = (
-				A857580B273990B80029B1EF /* AppDelegate.swift */,
-				A857580D273990B80029B1EF /* SceneDelegate.swift */,
 				5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */,
 				5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */,
 				5C8AD3F9273C4F98007B02EE /* 67858-pokemon.json */,
-				A857580F273990B80029B1EF /* ViewController.swift */,
 				5CCC27162739A43F007273B5 /* SPM */,
-				A8575811273990B80029B1EF /* Main.storyboard */,
 				DF29E865273AF0B9009609CE /* Combriender.entitlements */,
 				A857587D273AECB30029B1EF /* Navigation */,
 				A8575822273991A20029B1EF /* Combine */,
@@ -209,14 +223,6 @@
 				A8575827273992380029B1EF /* READMEAppClip.md */,
 			);
 			path = AppClip;
-			sourceTree = "<group>";
-		};
-		A8575824273991B70029B1EF /* SPM */ = {
-			isa = PBXGroup;
-			children = (
-				A8575826273992120029B1EF /* READMESPM.md */,
-			);
-			path = SPM;
 			sourceTree = "<group>";
 		};
 		A8575828273993200029B1EF /* Cells */ = {
@@ -336,6 +342,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5C822A1F274EB44200B2EC57 /* SPMAppClip- */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C822A35274EB44400B2EC57 /* Build configuration list for PBXNativeTarget "SPMAppClip-" */;
+			buildPhases = (
+				5C822A1C274EB44200B2EC57 /* Sources */,
+				5C822A1D274EB44200B2EC57 /* Frameworks */,
+				5C822A1E274EB44200B2EC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPMAppClip-";
+			productName = "SPMAppClip-";
+			productReference = 5C822A20274EB44200B2EC57 /* SPMAppClip-.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		A8575807273990B80029B1EF /* Combriender */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A857581F273990BA0029B1EF /* Build configuration list for PBXNativeTarget "Combriender" */;
@@ -348,7 +371,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DF29E851273AE8F7009609CE /* PBXTargetDependency */,
+				5C822A33274EB44400B2EC57 /* PBXTargetDependency */,
 			);
 			name = Combriender;
 			packageProductDependencies = (
@@ -358,23 +381,6 @@
 			productName = Combriender;
 			productReference = A8575808273990B80029B1EF /* Combriender.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DF29E827273AE8F5009609CE /* CombrienderAppClip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF29E85A273AE8F7009609CE /* Build configuration list for PBXNativeTarget "CombrienderAppClip" */;
-			buildPhases = (
-				DF29E824273AE8F5009609CE /* Sources */,
-				DF29E825273AE8F5009609CE /* Frameworks */,
-				DF29E826273AE8F5009609CE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CombrienderAppClip;
-			productName = CombrienderAppClip;
-			productReference = DF29E828273AE8F5009609CE /* CombrienderAppClip.app */;
-			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -386,10 +392,10 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					A8575807273990B80029B1EF = {
+					5C822A1F274EB44200B2EC57 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					DF29E827273AE8F5009609CE = {
+					A8575807273990B80029B1EF = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -412,12 +418,22 @@
 			projectRoot = "";
 			targets = (
 				A8575807273990B80029B1EF /* Combriender */,
-				DF29E827273AE8F5009609CE /* CombrienderAppClip */,
+				5C822A1F274EB44200B2EC57 /* SPMAppClip- */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5C822A1E274EB44200B2EC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C822A2F274EB44400B2EC57 /* LaunchScreen.storyboard in Resources */,
+				5C822A2C274EB44400B2EC57 /* Assets.xcassets in Resources */,
+				5C822A2A274EB44200B2EC57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8575806273990B80029B1EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,36 +447,33 @@
 				A8575818273990BA0029B1EF /* Assets.xcassets in Resources */,
 				5C8AD3FC273C4F98007B02EE /* 67858-pokemon.json in Resources */,
 				5C8AD3FB273C4F98007B02EE /* 39054-swablu.json in Resources */,
-				A8575813273990B80029B1EF /* Main.storyboard in Resources */,
+				A8575813273990B80029B1EF /* (null) in Resources */,
 				5C8AD3FA273C4F98007B02EE /* 22892-pikachu.json in Resources */,
 				A857582F27399DC20029B1EF /* Combine.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF29E826273AE8F5009609CE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFFAA2FA273C433B00A3743A /* Navigation.storyboard in Resources */,
-				DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */,
-				DF29E864273AEE19009609CE /* Main.storyboard in Resources */,
-				DF29E860273AEA26009609CE /* art.scnassets in Resources */,
-				DF29E85E273AEA14009609CE /* AppClipStoryboard.storyboard in Resources */,
-				DF29E834273AE8F6009609CE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5C822A1C274EB44200B2EC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C822A27274EB44200B2EC57 /* ViewController.swift in Sources */,
+				5C822A23274EB44200B2EC57 /* AppDelegate.swift in Sources */,
+				5C822A25274EB44200B2EC57 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8575804273990B80029B1EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8575810273990B80029B1EF /* ViewController.swift in Sources */,
+				A8575810273990B80029B1EF /* (null) in Sources */,
 				5CCC270F27399B4C007273B5 /* SwiftPackageManagerViewModel.swift in Sources */,
 				A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */,
-				A857580E273990B80029B1EF /* SceneDelegate.swift in Sources */,
+				A857580E273990B80029B1EF /* (null) in Sources */,
 				5CCC271A2739A48D007273B5 /* SwiftPackegeManagerViewController.swift in Sources */,
 				5C8AD3F6273C474B007B02EE /* ContentViewController.swift in Sources */,
 				A857583A27399FD60029B1EF /* PokemonViewCellViewModel.swift in Sources */,
@@ -477,28 +490,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF29E824273AE8F5009609CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF29E863273AEE17009609CE /* ViewController.swift in Sources */,
-				DF29E82B273AE8F5009609CE /* AppDelegate.swift in Sources */,
-				DF29E85D273AEA0D009609CE /* AppClipViewController.swift in Sources */,
-				DF29E82D273AE8F5009609CE /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF29E851273AE8F7009609CE /* PBXTargetDependency */ = {
+		5C822A33274EB44400B2EC57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF29E827273AE8F5009609CE /* CombrienderAppClip */;
-			targetProxy = DF29E850273AE8F7009609CE /* PBXContainerItemProxy */;
+			target = 5C822A1F274EB44200B2EC57 /* SPMAppClip- */;
+			targetProxy = 5C822A32274EB44400B2EC57 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5C822A28274EB44200B2EC57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C822A29274EB44200B2EC57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C822A2D274EB44400B2EC57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C822A2E274EB44400B2EC57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		A8575819273990BA0029B1EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -534,6 +552,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5C822A36274EB44400B2EC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SPMAppClip-/SPMAppClip_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV6658KLR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SPMAppClip-/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "comVictorVidal.Combriender---.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C822A37274EB44400B2EC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SPMAppClip-/SPMAppClip_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV6658KLR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SPMAppClip-/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "comVictorVidal.Combriender---.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A857581D273990BA0029B1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -659,7 +737,7 @@
 				CODE_SIGN_ENTITLEMENTS = Combriender/Combriender.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35MNU2XY54;
+				DEVELOPMENT_TEAM = NV6658KLR4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Combriender/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
@@ -673,7 +751,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender;
+				PRODUCT_BUNDLE_IDENTIFIER = "comVictorVidal.Combriender---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -691,7 +769,7 @@
 				CODE_SIGN_ENTITLEMENTS = Combriender/Combriender.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35MNU2XY54;
+				DEVELOPMENT_TEAM = NV6658KLR4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Combriender/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
@@ -705,71 +783,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender;
+				PRODUCT_BUNDLE_IDENTIFIER = "comVictorVidal.Combriender---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DF29E854273AE8F7009609CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CombrienderAppClip/CombrienderAppClip.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35MNU2XY54;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DF29E855273AE8F7009609CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CombrienderAppClip/CombrienderAppClip.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35MNU2XY54;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -779,6 +795,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5C822A35274EB44400B2EC57 /* Build configuration list for PBXNativeTarget "SPMAppClip-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C822A36274EB44400B2EC57 /* Debug */,
+				5C822A37274EB44400B2EC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A8575803273990B80029B1EF /* Build configuration list for PBXProject "Combriender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -793,15 +818,6 @@
 			buildConfigurations = (
 				A8575820273990BA0029B1EF /* Debug */,
 				A8575821273990BA0029B1EF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF29E85A273AE8F7009609CE /* Build configuration list for PBXNativeTarget "CombrienderAppClip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF29E854273AE8F7009609CE /* Debug */,
-				DF29E855273AE8F7009609CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
