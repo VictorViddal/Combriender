@@ -11,14 +11,6 @@
 		5C8AD3FA273C4F98007B02EE /* 22892-pikachu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */; };
 		5C8AD3FB273C4F98007B02EE /* 39054-swablu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */; };
 		5C8AD3FC273C4F98007B02EE /* 67858-pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F9273C4F98007B02EE /* 67858-pokemon.json */; };
-		5CCC270F27399B4C007273B5 /* SwiftPackageManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */; };
-		5CCC271227399F69007273B5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271127399F69007273B5 /* Lottie */; };
-		5CCC271527399FED007273B5 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271427399FED007273B5 /* FloatingPanel */; };
-		5CCC27182739A46D007273B5 /* SwiftPackegeManagerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */; };
-		5CCC271A2739A48D007273B5 /* SwiftPackegeManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */; };
-		A857580E273990B80029B1EF /* (null) in Sources */ = {isa = PBXBuildFile; };
-		A8575810273990B80029B1EF /* (null) in Sources */ = {isa = PBXBuildFile; };
-		A8575813273990B80029B1EF /* (null) in Resources */ = {isa = PBXBuildFile; };
 		5CB68F4F274C0D3300217C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB68F4E274C0D3300217C93 /* AppDelegate.swift */; };
 		5CB68F51274C0D3300217C93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB68F50274C0D3300217C93 /* SceneDelegate.swift */; };
 		5CB68F53274C0D3300217C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB68F52274C0D3300217C93 /* ViewController.swift */; };
@@ -35,6 +27,14 @@
 		5CB68F6A274C0D5E00217C93 /* PokemonViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857583927399FD60029B1EF /* PokemonViewCellViewModel.swift */; };
 		5CB68F6B274C0D6300217C93 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A857583127399EBC0029B1EF /* PokemonTableViewCell.xib */; };
 		5CB68F6C274C0D6600217C93 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857583027399EBC0029B1EF /* PokemonTableViewCell.swift */; };
+		5CCC270F27399B4C007273B5 /* SwiftPackageManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */; };
+		5CCC271227399F69007273B5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271127399F69007273B5 /* Lottie */; };
+		5CCC271527399FED007273B5 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271427399FED007273B5 /* FloatingPanel */; };
+		5CCC27182739A46D007273B5 /* SwiftPackegeManagerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */; };
+		5CCC271A2739A48D007273B5 /* SwiftPackegeManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */; };
+		A857580E273990B80029B1EF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A8575810273990B80029B1EF /* (null) in Sources */ = {isa = PBXBuildFile; };
+		A8575813273990B80029B1EF /* (null) in Resources */ = {isa = PBXBuildFile; };
 		A8575816273990B80029B1EF /* Combriender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8575814273990B80029B1EF /* Combriender.xcdatamodeld */; };
 		A8575818273990BA0029B1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8575817273990BA0029B1EF /* Assets.xcassets */; };
 		A857581B273990BA0029B1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8575819273990BA0029B1EF /* LaunchScreen.storyboard */; };
@@ -104,9 +104,6 @@
 		5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "22892-pikachu.json"; sourceTree = "<group>"; };
 		5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "39054-swablu.json"; sourceTree = "<group>"; };
 		5C8AD3F9273C4F98007B02EE /* 67858-pokemon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "67858-pokemon.json"; sourceTree = "<group>"; };
-		5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageManagerViewModel.swift; sourceTree = "<group>"; };
-		5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwiftPackegeManagerView.storyboard; sourceTree = "<group>"; };
-		5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackegeManagerViewController.swift; sourceTree = "<group>"; };
 		5CB68F4C274C0D3300217C93 /* SPMAppClip-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPMAppClip-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB68F4E274C0D3300217C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB68F50274C0D3300217C93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +113,9 @@
 		5CB68F5A274C0D3400217C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CB68F5C274C0D3400217C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB68F5D274C0D3400217C93 /* SPMAppClip_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPMAppClip_.entitlements; sourceTree = "<group>"; };
+		5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageManagerViewModel.swift; sourceTree = "<group>"; };
+		5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwiftPackegeManagerView.storyboard; sourceTree = "<group>"; };
+		5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackegeManagerViewController.swift; sourceTree = "<group>"; };
 		A8575808273990B80029B1EF /* Combriender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combriender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8575815273990B80029B1EF /* Combriender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Combriender.xcdatamodel; sourceTree = "<group>"; };
 		A8575817273990BA0029B1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,18 +178,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5CCC27162739A43F007273B5 /* SPM */ = {
-			isa = PBXGroup;
-			children = (
-				A8575889274D60CE0029B1EF /* Animations */,
-				5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */,
-				5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */,
-				5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */,
-				5C8AD3F5273C474B007B02EE /* ContentViewController.swift */,
-			);
-			path = SPM;
-			sourceTree = "<group>";
-		};
 		5CB68F4D274C0D3300217C93 /* SPMAppClip- */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +191,18 @@
 				5CB68F5D274C0D3400217C93 /* SPMAppClip_.entitlements */,
 			);
 			path = "SPMAppClip-";
+			sourceTree = "<group>";
+		};
+		5CCC27162739A43F007273B5 /* SPM */ = {
+			isa = PBXGroup;
+			children = (
+				A8575889274D60CE0029B1EF /* Animations */,
+				5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */,
+				5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */,
+				5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */,
+				5C8AD3F5273C474B007B02EE /* ContentViewController.swift */,
+			);
+			path = SPM;
 			sourceTree = "<group>";
 		};
 		A85757FF273990B80029B1EF = {
@@ -845,13 +845,13 @@
 				CODE_SIGN_ENTITLEMENTS = Combriender/Combriender.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NV6658KLR4;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Combriender/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -877,13 +877,13 @@
 				CODE_SIGN_ENTITLEMENTS = Combriender/Combriender.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NV6658KLR4;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Combriender/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -908,7 +908,7 @@
 				CODE_SIGN_ENTITLEMENTS = CombrienderAppClip/CombrienderAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35MNU2XY54;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
@@ -939,7 +939,7 @@
 				CODE_SIGN_ENTITLEMENTS = CombrienderAppClip/CombrienderAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35MNU2XY54;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Combriender;

@@ -14,8 +14,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        let mainStoryboard: UIStoryboard = UIStoryboard(name: "SwiftPackegeManagerView", bundle: nil)
-        let viewStartTest: UIViewController = mainStoryboard.instantiateViewController(withIdentifier: "start")
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Navigation", bundle: nil)
+        let viewStartTest: UIViewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController")
         self.window?.rootViewController = viewStartTest
         self.window?.makeKeyAndVisible()
 
