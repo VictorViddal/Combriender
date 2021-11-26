@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  SPMAppClip-
+//  SPMClip
 //
-//  Created by Vinícius Pinheiro on 22/11/21.
+//  Created by Rafael Dias Gonçalves on 26/11/21.
 //
 
 import UIKit
