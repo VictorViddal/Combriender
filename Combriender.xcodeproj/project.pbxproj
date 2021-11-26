@@ -47,13 +47,13 @@
 		DF12D64A2751597100990D46 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A857583127399EBC0029B1EF /* PokemonTableViewCell.xib */; };
 		DF12D64B2751597400990D46 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857583027399EBC0029B1EF /* PokemonTableViewCell.swift */; };
 		DF12D64D275159F300990D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8575817273990BA0029B1EF /* Assets.xcassets */; };
-		DF12D671275166DD00990D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D670275166DD00990D46 /* AppDelegate.swift */; };
-		DF12D673275166DD00990D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D672275166DD00990D46 /* SceneDelegate.swift */; };
-		DF12D675275166DD00990D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D674275166DD00990D46 /* ViewController.swift */; };
-		DF12D678275166DD00990D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF12D676275166DD00990D46 /* Main.storyboard */; };
-		DF12D67A275166E000990D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF12D679275166E000990D46 /* Assets.xcassets */; };
-		DF12D67D275166E000990D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF12D67B275166E000990D46 /* LaunchScreen.storyboard */; };
-		DF12D682275166E000990D46 /* SPMClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF12D66E275166DD00990D46 /* SPMClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF12D6C52751702900990D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6C42751702900990D46 /* AppDelegate.swift */; };
+		DF12D6C72751702900990D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6C62751702900990D46 /* SceneDelegate.swift */; };
+		DF12D6C92751702900990D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6C82751702900990D46 /* ViewController.swift */; };
+		DF12D6CC2751702900990D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF12D6CA2751702900990D46 /* Main.storyboard */; };
+		DF12D6CE2751702C00990D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF12D6CD2751702C00990D46 /* Assets.xcassets */; };
+		DF12D6D12751702C00990D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF12D6CF2751702C00990D46 /* LaunchScreen.storyboard */; };
+		DF12D6D62751702C00990D46 /* SpmClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF12D6C22751702900990D46 /* SpmClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DF29E82B273AE8F5009609CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82A273AE8F5009609CE /* AppDelegate.swift */; };
 		DF29E82D273AE8F5009609CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82C273AE8F5009609CE /* SceneDelegate.swift */; };
 		DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF29E835273AE8F6009609CE /* LaunchScreen.storyboard */; };
@@ -82,12 +82,12 @@
 			remoteGlobalIDString = DF12D60E2751594700990D46;
 			remoteInfo = CombineAppClip;
 		};
-		DF12D680275166E000990D46 /* PBXContainerItemProxy */ = {
+		DF12D6D42751702C00990D46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A8575800273990B80029B1EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF12D66D275166DD00990D46;
-			remoteInfo = SPMClip;
+			remoteGlobalIDString = DF12D6C12751702900990D46;
+			remoteInfo = SpmClip;
 		};
 		DF29E850273AE8F7009609CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -106,8 +106,8 @@
 			dstSubfolderSpec = 16;
 			files = (
 				DF12D6392751594800990D46 /* CombineAppClip.app in Embed App Clips */,
+				DF12D6D62751702C00990D46 /* SpmClip.app in Embed App Clips */,
 				DF29E852273AE8F7009609CE /* CombrienderAppClip.app in Embed App Clips */,
-				DF12D682275166E000990D46 /* SPMClip.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,14 +138,6 @@
 		A8575878273AE70D0029B1EF /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
 		A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedetailViewController.swift; sourceTree = "<group>"; };
 		A8575881273C42100029B1EF /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
-		DF12D5C92751555E00990D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF12D5CB2751555E00990D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF12D5CD2751555E00990D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF12D5D02751555E00990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF12D5D22751555F00990D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF12D5D52751555F00990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF12D5D72751555F00990D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF12D5D82751555F00990D46 /* SPMClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPMClip.entitlements; sourceTree = "<group>"; };
 		DF12D60F2751594700990D46 /* CombineAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF12D6112751594700990D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF12D6132751594700990D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,23 +147,15 @@
 		DF12D61D2751594800990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF12D61F2751594800990D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF12D6202751594800990D46 /* CombineAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombineAppClip.entitlements; sourceTree = "<group>"; };
-		DF12D6542751649C00990D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF12D6562751649C00990D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF12D6582751649C00990D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF12D65B2751649C00990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF12D65D2751649D00990D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF12D6602751649D00990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF12D6622751649D00990D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF12D6632751649D00990D46 /* SPMClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPMClip.entitlements; sourceTree = "<group>"; };
-		DF12D66E275166DD00990D46 /* SPMClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF12D670275166DD00990D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF12D672275166DD00990D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF12D674275166DD00990D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF12D677275166DD00990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF12D679275166E000990D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF12D67C275166E000990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF12D67E275166E000990D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF12D67F275166E000990D46 /* SPMClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPMClip.entitlements; sourceTree = "<group>"; };
+		DF12D6C22751702900990D46 /* SpmClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpmClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF12D6C42751702900990D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF12D6C62751702900990D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF12D6C82751702900990D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF12D6CB2751702900990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF12D6CD2751702C00990D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF12D6D02751702C00990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF12D6D22751702C00990D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF12D6D32751702C00990D46 /* SpmClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpmClip.entitlements; sourceTree = "<group>"; };
 		DF29E828273AE8F5009609CE /* CombrienderAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombrienderAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF29E82A273AE8F5009609CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF29E82C273AE8F5009609CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -208,7 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF12D66B275166DD00990D46 /* Frameworks */ = {
+		DF12D6BF2751702900990D46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,10 +226,8 @@
 			children = (
 				A857580A273990B80029B1EF /* Combriender */,
 				DF29E829273AE8F5009609CE /* CombrienderAppClip */,
-				DF12D5C82751555E00990D46 /* SPMClip */,
 				DF12D6102751594700990D46 /* CombineAppClip */,
-				DF12D6532751649C00990D46 /* SPMClip */,
-				DF12D66F275166DD00990D46 /* SPMClip */,
+				DF12D6C32751702900990D46 /* SpmClip */,
 				A8575809273990B80029B1EF /* Products */,
 				DF12D605275158AE00990D46 /* Frameworks */,
 			);
@@ -257,7 +239,7 @@
 				A8575808273990B80029B1EF /* Combriender.app */,
 				DF29E828273AE8F5009609CE /* CombrienderAppClip.app */,
 				DF12D60F2751594700990D46 /* CombineAppClip.app */,
-				DF12D66E275166DD00990D46 /* SPMClip.app */,
+				DF12D6C22751702900990D46 /* SpmClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -397,21 +379,6 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
-		DF12D5C82751555E00990D46 /* SPMClip */ = {
-			isa = PBXGroup;
-			children = (
-				DF12D5C92751555E00990D46 /* AppDelegate.swift */,
-				DF12D5CB2751555E00990D46 /* SceneDelegate.swift */,
-				DF12D5CD2751555E00990D46 /* ViewController.swift */,
-				DF12D5CF2751555E00990D46 /* Main.storyboard */,
-				DF12D5D22751555F00990D46 /* Assets.xcassets */,
-				DF12D5D42751555F00990D46 /* LaunchScreen.storyboard */,
-				DF12D5D72751555F00990D46 /* Info.plist */,
-				DF12D5D82751555F00990D46 /* SPMClip.entitlements */,
-			);
-			path = SPMClip;
-			sourceTree = "<group>";
-		};
 		DF12D605275158AE00990D46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,34 +401,19 @@
 			path = CombineAppClip;
 			sourceTree = "<group>";
 		};
-		DF12D6532751649C00990D46 /* SPMClip */ = {
+		DF12D6C32751702900990D46 /* SpmClip */ = {
 			isa = PBXGroup;
 			children = (
-				DF12D6542751649C00990D46 /* AppDelegate.swift */,
-				DF12D6562751649C00990D46 /* SceneDelegate.swift */,
-				DF12D6582751649C00990D46 /* ViewController.swift */,
-				DF12D65A2751649C00990D46 /* Main.storyboard */,
-				DF12D65D2751649D00990D46 /* Assets.xcassets */,
-				DF12D65F2751649D00990D46 /* LaunchScreen.storyboard */,
-				DF12D6622751649D00990D46 /* Info.plist */,
-				DF12D6632751649D00990D46 /* SPMClip.entitlements */,
+				DF12D6C42751702900990D46 /* AppDelegate.swift */,
+				DF12D6C62751702900990D46 /* SceneDelegate.swift */,
+				DF12D6C82751702900990D46 /* ViewController.swift */,
+				DF12D6CA2751702900990D46 /* Main.storyboard */,
+				DF12D6CD2751702C00990D46 /* Assets.xcassets */,
+				DF12D6CF2751702C00990D46 /* LaunchScreen.storyboard */,
+				DF12D6D22751702C00990D46 /* Info.plist */,
+				DF12D6D32751702C00990D46 /* SpmClip.entitlements */,
 			);
-			path = SPMClip;
-			sourceTree = "<group>";
-		};
-		DF12D66F275166DD00990D46 /* SPMClip */ = {
-			isa = PBXGroup;
-			children = (
-				DF12D670275166DD00990D46 /* AppDelegate.swift */,
-				DF12D672275166DD00990D46 /* SceneDelegate.swift */,
-				DF12D674275166DD00990D46 /* ViewController.swift */,
-				DF12D676275166DD00990D46 /* Main.storyboard */,
-				DF12D679275166E000990D46 /* Assets.xcassets */,
-				DF12D67B275166E000990D46 /* LaunchScreen.storyboard */,
-				DF12D67E275166E000990D46 /* Info.plist */,
-				DF12D67F275166E000990D46 /* SPMClip.entitlements */,
-			);
-			path = SPMClip;
+			path = SpmClip;
 			sourceTree = "<group>";
 		};
 		DF29E829273AE8F5009609CE /* CombrienderAppClip */ = {
@@ -506,7 +458,7 @@
 			dependencies = (
 				DF29E851273AE8F7009609CE /* PBXTargetDependency */,
 				DF12D6382751594800990D46 /* PBXTargetDependency */,
-				DF12D681275166E000990D46 /* PBXTargetDependency */,
+				DF12D6D52751702C00990D46 /* PBXTargetDependency */,
 			);
 			name = Combriender;
 			packageProductDependencies = (
@@ -534,21 +486,21 @@
 			productReference = DF12D60F2751594700990D46 /* CombineAppClip.app */;
 			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
-		DF12D66D275166DD00990D46 /* SPMClip */ = {
+		DF12D6C12751702900990D46 /* SpmClip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF12D683275166E000990D46 /* Build configuration list for PBXNativeTarget "SPMClip" */;
+			buildConfigurationList = DF12D6D72751702C00990D46 /* Build configuration list for PBXNativeTarget "SpmClip" */;
 			buildPhases = (
-				DF12D66A275166DD00990D46 /* Sources */,
-				DF12D66B275166DD00990D46 /* Frameworks */,
-				DF12D66C275166DD00990D46 /* Resources */,
+				DF12D6BE2751702900990D46 /* Sources */,
+				DF12D6BF2751702900990D46 /* Frameworks */,
+				DF12D6C02751702900990D46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SPMClip;
-			productName = SPMClip;
-			productReference = DF12D66E275166DD00990D46 /* SPMClip.app */;
+			name = SpmClip;
+			productName = SpmClip;
+			productReference = DF12D6C22751702900990D46 /* SpmClip.app */;
 			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 		DF29E827273AE8F5009609CE /* CombrienderAppClip */ = {
@@ -584,7 +536,7 @@
 					DF12D60E2751594700990D46 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					DF12D66D275166DD00990D46 = {
+					DF12D6C12751702900990D46 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 					DF29E827273AE8F5009609CE = {
@@ -612,7 +564,7 @@
 				A8575807273990B80029B1EF /* Combriender */,
 				DF29E827273AE8F5009609CE /* CombrienderAppClip */,
 				DF12D60E2751594700990D46 /* CombineAppClip */,
-				DF12D66D275166DD00990D46 /* SPMClip */,
+				DF12D6C12751702900990D46 /* SpmClip */,
 			);
 		};
 /* End PBXProject section */
@@ -649,13 +601,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF12D66C275166DD00990D46 /* Resources */ = {
+		DF12D6C02751702900990D46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF12D67D275166E000990D46 /* LaunchScreen.storyboard in Resources */,
-				DF12D67A275166E000990D46 /* Assets.xcassets in Resources */,
-				DF12D678275166DD00990D46 /* Main.storyboard in Resources */,
+				DF12D6D12751702C00990D46 /* LaunchScreen.storyboard in Resources */,
+				DF12D6CE2751702C00990D46 /* Assets.xcassets in Resources */,
+				DF12D6CC2751702900990D46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,13 +670,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF12D66A275166DD00990D46 /* Sources */ = {
+		DF12D6BE2751702900990D46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF12D675275166DD00990D46 /* ViewController.swift in Sources */,
-				DF12D671275166DD00990D46 /* AppDelegate.swift in Sources */,
-				DF12D673275166DD00990D46 /* SceneDelegate.swift in Sources */,
+				DF12D6C92751702900990D46 /* ViewController.swift in Sources */,
+				DF12D6C52751702900990D46 /* AppDelegate.swift in Sources */,
+				DF12D6C72751702900990D46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,10 +699,10 @@
 			target = DF12D60E2751594700990D46 /* CombineAppClip */;
 			targetProxy = DF12D6372751594800990D46 /* PBXContainerItemProxy */;
 		};
-		DF12D681275166E000990D46 /* PBXTargetDependency */ = {
+		DF12D6D52751702C00990D46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF12D66D275166DD00990D46 /* SPMClip */;
-			targetProxy = DF12D680275166E000990D46 /* PBXContainerItemProxy */;
+			target = DF12D6C12751702900990D46 /* SpmClip */;
+			targetProxy = DF12D6D42751702C00990D46 /* PBXContainerItemProxy */;
 		};
 		DF29E851273AE8F7009609CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -764,22 +716,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A857581A273990BA0029B1EF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DF12D5CF2751555E00990D46 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF12D5D02751555E00990D46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DF12D5D42751555F00990D46 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF12D5D52751555F00990D46 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -800,34 +736,18 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		DF12D65A2751649C00990D46 /* Main.storyboard */ = {
+		DF12D6CA2751702900990D46 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF12D65B2751649C00990D46 /* Base */,
+				DF12D6CB2751702900990D46 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DF12D65F2751649D00990D46 /* LaunchScreen.storyboard */ = {
+		DF12D6CF2751702C00990D46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF12D6602751649D00990D46 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DF12D676275166DD00990D46 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF12D677275166DD00990D46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DF12D67B275166E000990D46 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF12D67C275166E000990D46 /* Base */,
+				DF12D6D02751702C00990D46 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1101,17 +1021,17 @@
 			};
 			name = Release;
 		};
-		DF12D684275166E000990D46 /* Debug */ = {
+		DF12D6D82751702C00990D46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SPMClip/SPMClip.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SpmClip/SpmClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35MNU2XY54;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SPMClip/Info.plist;
+				INFOPLIST_FILE = SpmClip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -1123,7 +1043,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender3.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender2.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1131,17 +1051,17 @@
 			};
 			name = Debug;
 		};
-		DF12D685275166E000990D46 /* Release */ = {
+		DF12D6D92751702C00990D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SPMClip/SPMClip.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SpmClip/SpmClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35MNU2XY54;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SPMClip/Info.plist;
+				INFOPLIST_FILE = SpmClip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -1153,7 +1073,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender3.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender2.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1253,11 +1173,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF12D683275166E000990D46 /* Build configuration list for PBXNativeTarget "SPMClip" */ = {
+		DF12D6D72751702C00990D46 /* Build configuration list for PBXNativeTarget "SpmClip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF12D684275166E000990D46 /* Debug */,
-				DF12D685275166E000990D46 /* Release */,
+				DF12D6D82751702C00990D46 /* Debug */,
+				DF12D6D92751702C00990D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

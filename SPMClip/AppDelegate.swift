@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SPMClip
+//  SpmClip
 //
 //  Created by Rafael Dias Gonçalves on 26/11/21.
 //

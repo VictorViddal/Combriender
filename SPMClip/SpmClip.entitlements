@@ -4,7 +4,7 @@
 <dict>
     <key>com.apple.developer.parent-application-identifiers</key>
     <array>
-        <string>$(AppIdentifierPrefix)comVictorVidal.Combriender</string>
+        <string>$(AppIdentifierPrefix)comVictorVidal.Combriender2</string>
     </array>
 </dict>
 </plist>
