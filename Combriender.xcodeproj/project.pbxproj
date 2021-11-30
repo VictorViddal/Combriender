@@ -11,22 +11,6 @@
 		5C8AD3FA273C4F98007B02EE /* 22892-pikachu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */; };
 		5C8AD3FB273C4F98007B02EE /* 39054-swablu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */; };
 		5C8AD3FC273C4F98007B02EE /* 67858-pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8AD3F9273C4F98007B02EE /* 67858-pokemon.json */; };
-		5CB68F4F274C0D3300217C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB68F4E274C0D3300217C93 /* AppDelegate.swift */; };
-		5CB68F51274C0D3300217C93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB68F50274C0D3300217C93 /* SceneDelegate.swift */; };
-		5CB68F53274C0D3300217C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB68F52274C0D3300217C93 /* ViewController.swift */; };
-		5CB68F56274C0D3300217C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB68F54274C0D3300217C93 /* Main.storyboard */; };
-		5CB68F58274C0D3400217C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB68F57274C0D3400217C93 /* Assets.xcassets */; };
-		5CB68F5B274C0D3400217C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB68F59274C0D3400217C93 /* LaunchScreen.storyboard */; };
-		5CB68F60274C0D3400217C93 /* SPMAppClip-.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 5CB68F4C274C0D3300217C93 /* SPMAppClip-.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		5CB68F64274C0D4600217C93 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857582C2739979B0029B1EF /* PokemonModel.swift */; };
-		5CB68F65274C0D4B00217C93 /* Combine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A857582E27399DC20029B1EF /* Combine.storyboard */; };
-		5CB68F66274C0D4F00217C93 /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575878273AE70D0029B1EF /* CombineViewController.swift */; };
-		5CB68F67274C0D5200217C93 /* CombinedetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */; };
-		5CB68F68274C0D5700217C93 /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575881273C42100029B1EF /* CombineViewModel.swift */; };
-		5CB68F69274C0D5B00217C93 /* PokemonTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575876273AE6470029B1EF /* PokemonTableViewModel.swift */; };
-		5CB68F6A274C0D5E00217C93 /* PokemonViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857583927399FD60029B1EF /* PokemonViewCellViewModel.swift */; };
-		5CB68F6B274C0D6300217C93 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A857583127399EBC0029B1EF /* PokemonTableViewCell.xib */; };
-		5CB68F6C274C0D6600217C93 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857583027399EBC0029B1EF /* PokemonTableViewCell.swift */; };
 		5CCC270F27399B4C007273B5 /* SwiftPackageManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */; };
 		5CCC271227399F69007273B5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271127399F69007273B5 /* Lottie */; };
 		5CCC271527399FED007273B5 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCC271427399FED007273B5 /* FloatingPanel */; };
@@ -47,6 +31,29 @@
 		A8575879273AE70D0029B1EF /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575878273AE70D0029B1EF /* CombineViewController.swift */; };
 		A857587B273AEB3D0029B1EF /* CombinedetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */; };
 		A8575882273C42100029B1EF /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575881273C42100029B1EF /* CombineViewModel.swift */; };
+		DF12D6122751594700990D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6112751594700990D46 /* AppDelegate.swift */; };
+		DF12D6142751594700990D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6132751594700990D46 /* SceneDelegate.swift */; };
+		DF12D6162751594700990D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6152751594700990D46 /* ViewController.swift */; };
+		DF12D6192751594700990D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF12D6172751594700990D46 /* Main.storyboard */; };
+		DF12D61E2751594800990D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF12D61C2751594800990D46 /* LaunchScreen.storyboard */; };
+		DF12D6392751594800990D46 /* CombineAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF12D60F2751594700990D46 /* CombineAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF12D6432751595D00990D46 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857582C2739979B0029B1EF /* PokemonModel.swift */; };
+		DF12D6442751596100990D46 /* Combine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A857582E27399DC20029B1EF /* Combine.storyboard */; };
+		DF12D6452751596400990D46 /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575878273AE70D0029B1EF /* CombineViewController.swift */; };
+		DF12D6462751596700990D46 /* CombinedetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */; };
+		DF12D6472751596900990D46 /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575881273C42100029B1EF /* CombineViewModel.swift */; };
+		DF12D6482751596C00990D46 /* PokemonTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8575876273AE6470029B1EF /* PokemonTableViewModel.swift */; };
+		DF12D6492751596E00990D46 /* PokemonViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857583927399FD60029B1EF /* PokemonViewCellViewModel.swift */; };
+		DF12D64A2751597100990D46 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A857583127399EBC0029B1EF /* PokemonTableViewCell.xib */; };
+		DF12D64B2751597400990D46 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857583027399EBC0029B1EF /* PokemonTableViewCell.swift */; };
+		DF12D64D275159F300990D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8575817273990BA0029B1EF /* Assets.xcassets */; };
+		DF12D6C52751702900990D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6C42751702900990D46 /* AppDelegate.swift */; };
+		DF12D6C72751702900990D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6C62751702900990D46 /* SceneDelegate.swift */; };
+		DF12D6C92751702900990D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12D6C82751702900990D46 /* ViewController.swift */; };
+		DF12D6CC2751702900990D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF12D6CA2751702900990D46 /* Main.storyboard */; };
+		DF12D6CE2751702C00990D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF12D6CD2751702C00990D46 /* Assets.xcassets */; };
+		DF12D6D12751702C00990D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF12D6CF2751702C00990D46 /* LaunchScreen.storyboard */; };
+		DF12D6D62751702C00990D46 /* SpmClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF12D6C22751702900990D46 /* SpmClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DF29E82B273AE8F5009609CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82A273AE8F5009609CE /* AppDelegate.swift */; };
 		DF29E82D273AE8F5009609CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29E82C273AE8F5009609CE /* SceneDelegate.swift */; };
 		DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF29E835273AE8F6009609CE /* LaunchScreen.storyboard */; };
@@ -64,16 +71,22 @@
 		DFFAA2F4273C422300A3743A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFAA2F2273C422300A3743A /* Navigation.storyboard */; };
 		DFFAA2F6273C425100A3743A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA2F5273C425100A3743A /* AppDelegate.swift */; };
 		DFFAA2F8273C425900A3743A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA2F7273C425900A3743A /* SceneDelegate.swift */; };
-		DFFAA2FA273C433B00A3743A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFAA2F2273C422300A3743A /* Navigation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5CB68F5E274C0D3400217C93 /* PBXContainerItemProxy */ = {
+		DF12D6372751594800990D46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A8575800273990B80029B1EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5CB68F4B274C0D3300217C93;
-			remoteInfo = "SPMAppClip-";
+			remoteGlobalIDString = DF12D60E2751594700990D46;
+			remoteInfo = CombineAppClip;
+		};
+		DF12D6D42751702C00990D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8575800273990B80029B1EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF12D6C12751702900990D46;
+			remoteInfo = SpmClip;
 		};
 		DF29E850273AE8F7009609CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -91,7 +104,8 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
 			dstSubfolderSpec = 16;
 			files = (
-				5CB68F60274C0D3400217C93 /* SPMAppClip-.app in Embed App Clips */,
+				DF12D6392751594800990D46 /* CombineAppClip.app in Embed App Clips */,
+				DF12D6D62751702C00990D46 /* SpmClip.app in Embed App Clips */,
 				DF29E852273AE8F7009609CE /* CombrienderAppClip.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
@@ -104,15 +118,6 @@
 		5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "22892-pikachu.json"; sourceTree = "<group>"; };
 		5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "39054-swablu.json"; sourceTree = "<group>"; };
 		5C8AD3F9273C4F98007B02EE /* 67858-pokemon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "67858-pokemon.json"; sourceTree = "<group>"; };
-		5CB68F4C274C0D3300217C93 /* SPMAppClip-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPMAppClip-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CB68F4E274C0D3300217C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CB68F50274C0D3300217C93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5CB68F52274C0D3300217C93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5CB68F55274C0D3300217C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5CB68F57274C0D3400217C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5CB68F5A274C0D3400217C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5CB68F5C274C0D3400217C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CB68F5D274C0D3400217C93 /* SPMAppClip_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPMAppClip_.entitlements; sourceTree = "<group>"; };
 		5CCC270E27399B4C007273B5 /* SwiftPackageManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageManagerViewModel.swift; sourceTree = "<group>"; };
 		5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwiftPackegeManagerView.storyboard; sourceTree = "<group>"; };
 		5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackegeManagerViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +137,24 @@
 		A8575878273AE70D0029B1EF /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
 		A857587A273AEB3D0029B1EF /* CombinedetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedetailViewController.swift; sourceTree = "<group>"; };
 		A8575881273C42100029B1EF /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
+		DF12D60F2751594700990D46 /* CombineAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF12D6112751594700990D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF12D6132751594700990D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF12D6152751594700990D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF12D6182751594700990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF12D61A2751594800990D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF12D61D2751594800990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF12D61F2751594800990D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF12D6202751594800990D46 /* CombineAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombineAppClip.entitlements; sourceTree = "<group>"; };
+		DF12D6C22751702900990D46 /* SpmClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpmClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF12D6C42751702900990D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF12D6C62751702900990D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF12D6C82751702900990D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF12D6CB2751702900990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF12D6CD2751702C00990D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF12D6D02751702C00990D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF12D6D22751702C00990D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF12D6D32751702C00990D46 /* SpmClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpmClip.entitlements; sourceTree = "<group>"; };
 		DF29E828273AE8F5009609CE /* CombrienderAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombrienderAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF29E82A273AE8F5009609CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF29E82C273AE8F5009609CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,19 +175,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5CB68F49274C0D3300217C93 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A8575805273990B80029B1EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5CCC271227399F69007273B5 /* Lottie in Frameworks */,
 				5CCC271527399FED007273B5 /* FloatingPanel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF12D60C2751594700990D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF12D6BF2751702900990D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,21 +208,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5CB68F4D274C0D3300217C93 /* SPMAppClip- */ = {
-			isa = PBXGroup;
-			children = (
-				5CB68F4E274C0D3300217C93 /* AppDelegate.swift */,
-				5CB68F50274C0D3300217C93 /* SceneDelegate.swift */,
-				5CB68F52274C0D3300217C93 /* ViewController.swift */,
-				5CB68F54274C0D3300217C93 /* Main.storyboard */,
-				5CB68F57274C0D3400217C93 /* Assets.xcassets */,
-				5CB68F59274C0D3400217C93 /* LaunchScreen.storyboard */,
-				5CB68F5C274C0D3400217C93 /* Info.plist */,
-				5CB68F5D274C0D3400217C93 /* SPMAppClip_.entitlements */,
-			);
-			path = "SPMAppClip-";
-			sourceTree = "<group>";
-		};
 		5CCC27162739A43F007273B5 /* SPM */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,8 +225,10 @@
 			children = (
 				A857580A273990B80029B1EF /* Combriender */,
 				DF29E829273AE8F5009609CE /* CombrienderAppClip */,
-				5CB68F4D274C0D3300217C93 /* SPMAppClip- */,
+				DF12D6102751594700990D46 /* CombineAppClip */,
+				DF12D6C32751702900990D46 /* SpmClip */,
 				A8575809273990B80029B1EF /* Products */,
+				DF12D605275158AE00990D46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,7 +237,8 @@
 			children = (
 				A8575808273990B80029B1EF /* Combriender.app */,
 				DF29E828273AE8F5009609CE /* CombrienderAppClip.app */,
-				5CB68F4C274C0D3300217C93 /* SPMAppClip-.app */,
+				DF12D60F2751594700990D46 /* CombineAppClip.app */,
+				DF12D6C22751702900990D46 /* SpmClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -360,6 +378,43 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		DF12D605275158AE00990D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF12D6102751594700990D46 /* CombineAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				DF12D6112751594700990D46 /* AppDelegate.swift */,
+				DF12D6132751594700990D46 /* SceneDelegate.swift */,
+				DF12D6152751594700990D46 /* ViewController.swift */,
+				DF12D6172751594700990D46 /* Main.storyboard */,
+				DF12D61A2751594800990D46 /* Assets.xcassets */,
+				DF12D61C2751594800990D46 /* LaunchScreen.storyboard */,
+				DF12D61F2751594800990D46 /* Info.plist */,
+				DF12D6202751594800990D46 /* CombineAppClip.entitlements */,
+			);
+			path = CombineAppClip;
+			sourceTree = "<group>";
+		};
+		DF12D6C32751702900990D46 /* SpmClip */ = {
+			isa = PBXGroup;
+			children = (
+				DF12D6C42751702900990D46 /* AppDelegate.swift */,
+				DF12D6C62751702900990D46 /* SceneDelegate.swift */,
+				DF12D6C82751702900990D46 /* ViewController.swift */,
+				DF12D6CA2751702900990D46 /* Main.storyboard */,
+				DF12D6CD2751702C00990D46 /* Assets.xcassets */,
+				DF12D6CF2751702C00990D46 /* LaunchScreen.storyboard */,
+				DF12D6D22751702C00990D46 /* Info.plist */,
+				DF12D6D32751702C00990D46 /* SpmClip.entitlements */,
+			);
+			path = SpmClip;
+			sourceTree = "<group>";
+		};
 		DF29E829273AE8F5009609CE /* CombrienderAppClip */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,23 +443,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5CB68F4B274C0D3300217C93 /* SPMAppClip- */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CB68F61274C0D3400217C93 /* Build configuration list for PBXNativeTarget "SPMAppClip-" */;
-			buildPhases = (
-				5CB68F48274C0D3300217C93 /* Sources */,
-				5CB68F49274C0D3300217C93 /* Frameworks */,
-				5CB68F4A274C0D3300217C93 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SPMAppClip-";
-			productName = "SPMAppClip-";
-			productReference = 5CB68F4C274C0D3300217C93 /* SPMAppClip-.app */;
-			productType = "com.apple.product-type.application.on-demand-install-capable";
-		};
 		A8575807273990B80029B1EF /* Combriender */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A857581F273990BA0029B1EF /* Build configuration list for PBXNativeTarget "Combriender" */;
@@ -418,7 +456,8 @@
 			);
 			dependencies = (
 				DF29E851273AE8F7009609CE /* PBXTargetDependency */,
-				5CB68F5F274C0D3400217C93 /* PBXTargetDependency */,
+				DF12D6382751594800990D46 /* PBXTargetDependency */,
+				DF12D6D52751702C00990D46 /* PBXTargetDependency */,
 			);
 			name = Combriender;
 			packageProductDependencies = (
@@ -428,6 +467,40 @@
 			productName = Combriender;
 			productReference = A8575808273990B80029B1EF /* Combriender.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DF12D60E2751594700990D46 /* CombineAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF12D63A2751594800990D46 /* Build configuration list for PBXNativeTarget "CombineAppClip" */;
+			buildPhases = (
+				DF12D60B2751594700990D46 /* Sources */,
+				DF12D60C2751594700990D46 /* Frameworks */,
+				DF12D60D2751594700990D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineAppClip;
+			productName = CombineAppClip;
+			productReference = DF12D60F2751594700990D46 /* CombineAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		DF12D6C12751702900990D46 /* SpmClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF12D6D72751702C00990D46 /* Build configuration list for PBXNativeTarget "SpmClip" */;
+			buildPhases = (
+				DF12D6BE2751702900990D46 /* Sources */,
+				DF12D6BF2751702900990D46 /* Frameworks */,
+				DF12D6C02751702900990D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpmClip;
+			productName = SpmClip;
+			productReference = DF12D6C22751702900990D46 /* SpmClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 		DF29E827273AE8F5009609CE /* CombrienderAppClip */ = {
 			isa = PBXNativeTarget;
@@ -456,10 +529,13 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					5CB68F4B274C0D3300217C93 = {
+					A8575807273990B80029B1EF = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					A8575807273990B80029B1EF = {
+					DF12D60E2751594700990D46 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DF12D6C12751702900990D46 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 					DF29E827273AE8F5009609CE = {
@@ -486,24 +562,13 @@
 			targets = (
 				A8575807273990B80029B1EF /* Combriender */,
 				DF29E827273AE8F5009609CE /* CombrienderAppClip */,
-				5CB68F4B274C0D3300217C93 /* SPMAppClip- */,
+				DF12D60E2751594700990D46 /* CombineAppClip */,
+				DF12D6C12751702900990D46 /* SpmClip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5CB68F4A274C0D3300217C93 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CB68F5B274C0D3400217C93 /* LaunchScreen.storyboard in Resources */,
-				5CB68F6B274C0D6300217C93 /* PokemonTableViewCell.xib in Resources */,
-				5CB68F58274C0D3400217C93 /* Assets.xcassets in Resources */,
-				5CB68F65274C0D4B00217C93 /* Combine.storyboard in Resources */,
-				5CB68F56274C0D3300217C93 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A8575806273990B80029B1EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,11 +588,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF12D60D2751594700990D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF12D61E2751594800990D46 /* LaunchScreen.storyboard in Resources */,
+				DF12D64A2751597100990D46 /* PokemonTableViewCell.xib in Resources */,
+				DF12D6442751596100990D46 /* Combine.storyboard in Resources */,
+				DF12D6192751594700990D46 /* Main.storyboard in Resources */,
+				DF12D64D275159F300990D46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF12D6C02751702900990D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF12D6D12751702C00990D46 /* LaunchScreen.storyboard in Resources */,
+				DF12D6CE2751702C00990D46 /* Assets.xcassets in Resources */,
+				DF12D6CC2751702900990D46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF29E826273AE8F5009609CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFAA2FA273C433B00A3743A /* Navigation.storyboard in Resources */,
 				DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */,
 				DF29E864273AEE19009609CE /* Main.storyboard in Resources */,
 				DF29E860273AEA26009609CE /* art.scnassets in Resources */,
@@ -539,23 +625,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5CB68F48274C0D3300217C93 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CB68F53274C0D3300217C93 /* ViewController.swift in Sources */,
-				5CB68F4F274C0D3300217C93 /* AppDelegate.swift in Sources */,
-				5CB68F66274C0D4F00217C93 /* CombineViewController.swift in Sources */,
-				5CB68F6C274C0D6600217C93 /* PokemonTableViewCell.swift in Sources */,
-				5CB68F6A274C0D5E00217C93 /* PokemonViewCellViewModel.swift in Sources */,
-				5CB68F69274C0D5B00217C93 /* PokemonTableViewModel.swift in Sources */,
-				5CB68F68274C0D5700217C93 /* CombineViewModel.swift in Sources */,
-				5CB68F67274C0D5200217C93 /* CombinedetailViewController.swift in Sources */,
-				5CB68F51274C0D3300217C93 /* SceneDelegate.swift in Sources */,
-				5CB68F64274C0D4600217C93 /* PokemonModel.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A8575804273990B80029B1EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,6 +651,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF12D60B2751594700990D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF12D6162751594700990D46 /* ViewController.swift in Sources */,
+				DF12D6122751594700990D46 /* AppDelegate.swift in Sources */,
+				DF12D6452751596400990D46 /* CombineViewController.swift in Sources */,
+				DF12D64B2751597400990D46 /* PokemonTableViewCell.swift in Sources */,
+				DF12D6492751596E00990D46 /* PokemonViewCellViewModel.swift in Sources */,
+				DF12D6482751596C00990D46 /* PokemonTableViewModel.swift in Sources */,
+				DF12D6472751596900990D46 /* CombineViewModel.swift in Sources */,
+				DF12D6462751596700990D46 /* CombinedetailViewController.swift in Sources */,
+				DF12D6142751594700990D46 /* SceneDelegate.swift in Sources */,
+				DF12D6432751595D00990D46 /* PokemonModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF12D6BE2751702900990D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF12D6C92751702900990D46 /* ViewController.swift in Sources */,
+				DF12D6C52751702900990D46 /* AppDelegate.swift in Sources */,
+				DF12D6C72751702900990D46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF29E824273AE8F5009609CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -596,10 +692,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5CB68F5F274C0D3400217C93 /* PBXTargetDependency */ = {
+		DF12D6382751594800990D46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5CB68F4B274C0D3300217C93 /* SPMAppClip- */;
-			targetProxy = 5CB68F5E274C0D3400217C93 /* PBXContainerItemProxy */;
+			target = DF12D60E2751594700990D46 /* CombineAppClip */;
+			targetProxy = DF12D6372751594800990D46 /* PBXContainerItemProxy */;
+		};
+		DF12D6D52751702C00990D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF12D6C12751702900990D46 /* SpmClip */;
+			targetProxy = DF12D6D42751702C00990D46 /* PBXContainerItemProxy */;
 		};
 		DF29E851273AE8F7009609CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -609,26 +710,42 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5CB68F54274C0D3300217C93 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5CB68F55274C0D3300217C93 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5CB68F59274C0D3400217C93 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5CB68F5A274C0D3400217C93 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		A8575819273990BA0029B1EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A857581A273990BA0029B1EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF12D6172751594700990D46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF12D6182751594700990D46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF12D61C2751594800990D46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF12D61D2751594800990D46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF12D6CA2751702900990D46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF12D6CB2751702900990D46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF12D6CF2751702C00990D46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF12D6D02751702C00990D46 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -660,66 +777,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5CB68F62274C0D3400217C93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SPMAppClip-/SPMAppClip_.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NV6658KLR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SPMAppClip-/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "comVictorVidal.Combriender--.Clip";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5CB68F63274C0D3400217C93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "SPMAppClip-/SPMAppClip_.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NV6658KLR4;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SPMAppClip-/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "comVictorVidal.Combriender--.Clip";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		A857581D273990BA0029B1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -845,9 +902,10 @@
 				CODE_SIGN_ENTITLEMENTS = Combriender/Combriender.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 35MNU2XY54;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Combriender/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -859,7 +917,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "comVictorVidal.Combriender--";
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -877,9 +935,10 @@
 				CODE_SIGN_ENTITLEMENTS = Combriender/Combriender.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 35MNU2XY54;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Combriender/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -891,9 +950,129 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "comVictorVidal.Combriender--";
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF12D63B2751594800990D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombineAppClip/CombineAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35MNU2XY54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CombineAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender3.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF12D63C2751594800990D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombineAppClip/CombineAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35MNU2XY54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CombineAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender3.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF12D6D82751702C00990D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpmClip/SpmClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35MNU2XY54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpmClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender2.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF12D6D92751702C00990D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpmClip/SpmClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35MNU2XY54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpmClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comVictorVidal.Combriender2.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -965,15 +1144,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CB68F61274C0D3400217C93 /* Build configuration list for PBXNativeTarget "SPMAppClip-" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CB68F62274C0D3400217C93 /* Debug */,
-				5CB68F63274C0D3400217C93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A8575803273990B80029B1EF /* Build configuration list for PBXProject "Combriender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -988,6 +1158,24 @@
 			buildConfigurations = (
 				A8575820273990BA0029B1EF /* Debug */,
 				A8575821273990BA0029B1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF12D63A2751594800990D46 /* Build configuration list for PBXNativeTarget "CombineAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF12D63B2751594800990D46 /* Debug */,
+				DF12D63C2751594800990D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF12D6D72751702C00990D46 /* Build configuration list for PBXNativeTarget "SpmClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF12D6D82751702C00990D46 /* Debug */,
+				DF12D6D92751702C00990D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

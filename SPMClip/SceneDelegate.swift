@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  SPMAppClip-
+//  SpmClip
 //
-//  Created by Vinícius Pinheiro on 22/11/21.
+//  Created by Rafael Dias Gonçalves on 26/11/21.
 //
 
 import UIKit
