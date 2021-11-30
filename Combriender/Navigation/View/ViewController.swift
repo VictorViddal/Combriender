@@ -37,13 +37,15 @@ class ViewController: UIViewController {
     }
 
     @objc func handleTapSPM(_ sender: UITapGestureRecognizer? = nil) {
-        // Insert  SPM navigation
+        let storyboard = UIStoryboard(name: "SwiftPackegeManagerView", bundle: .main)
+        if let viewController = storyboard.instantiateViewController(identifier: "start") as? SwiftPackegeManagerViewController {
+            navigationController?.pushViewController(viewController, animated: false)
+        }
     }
     
     @objc func handleTapAppClip(_ sender: UITapGestureRecognizer? = nil) {
         let storyboard = UIStoryboard(name: "AppClipStoryboard", bundle: .main)
         if let viewController = storyboard.instantiateViewController(identifier: "AppClipStoryboard") as? AppClipViewController {
-            print("a")
             navigationController?.pushViewController(viewController, animated: false)
         }
     }
