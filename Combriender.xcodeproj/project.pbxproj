@@ -115,6 +115,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C07D11827569B0D0068DD6D /* READMESPM.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READMESPM.md; sourceTree = "<group>"; };
 		5C8AD3F5273C474B007B02EE /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		5C8AD3F7273C4F98007B02EE /* 22892-pikachu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "22892-pikachu.json"; sourceTree = "<group>"; };
 		5C8AD3F8273C4F98007B02EE /* 39054-swablu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "39054-swablu.json"; sourceTree = "<group>"; };
@@ -217,6 +218,7 @@
 				5CCC27192739A48D007273B5 /* SwiftPackegeManagerViewController.swift */,
 				5CCC27172739A46D007273B5 /* SwiftPackegeManagerView.storyboard */,
 				5C8AD3F5273C474B007B02EE /* ContentViewController.swift */,
+				5C07D11827569B0D0068DD6D /* READMESPM.md */,
 			);
 			path = SPM;
 			sourceTree = "<group>";
