@@ -71,7 +71,6 @@
 		DFFAA2F4273C422300A3743A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFAA2F2273C422300A3743A /* Navigation.storyboard */; };
 		DFFAA2F6273C425100A3743A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA2F5273C425100A3743A /* AppDelegate.swift */; };
 		DFFAA2F8273C425900A3743A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAA2F7273C425900A3743A /* SceneDelegate.swift */; };
-		DFFAA2FA273C433B00A3743A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFAA2F2273C422300A3743A /* Navigation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -617,7 +616,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFAA2FA273C433B00A3743A /* Navigation.storyboard in Resources */,
 				DF29E837273AE8F6009609CE /* LaunchScreen.storyboard in Resources */,
 				DF29E864273AEE19009609CE /* Main.storyboard in Resources */,
 				DF29E860273AEA26009609CE /* art.scnassets in Resources */,
@@ -913,7 +911,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -946,7 +944,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = asdadadad;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1091,7 +1089,7 @@
 				CODE_SIGN_ENTITLEMENTS = CombrienderAppClip/CombrienderAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35MNU2XY54;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Combriender;
@@ -1122,7 +1120,7 @@
 				CODE_SIGN_ENTITLEMENTS = CombrienderAppClip/CombrienderAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 35MNU2XY54;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CombrienderAppClip/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Combriender;

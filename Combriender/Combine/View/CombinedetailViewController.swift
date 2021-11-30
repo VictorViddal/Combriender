@@ -27,7 +27,7 @@ class CombinedetailViewController: UIViewController {
             DispatchQueue.main.async {
                 self.pokemonHeight.text = String(self.viewModel.pokemon.height!)
                 self.pokemonWeight.text = String(self.viewModel.pokemon.weight!)
-                self.pokemonIsStarter.text = self.viewModel.pokemon.is_default! ? "Sim" : "Não"
+                self.pokemonIsStarter.text = self.viewModel.pokemon.is_default! ? "Não" : "Sim"
                 self.pokemonPokedexNumber.text = String(self.viewModel.pokemon.id!)
             }
             self.viewModel.receivePokemonImageFromPath(id: self.viewModel.pokemon.id!).sink { resultImage in
